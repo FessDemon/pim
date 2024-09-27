@@ -13,6 +13,18 @@ matrix3 = np.array([[4.1, 5.2, 3.7, 1.5, 15],
                    [8.1, 9.3, 16, 1.2, 0.75],
                    [3.6, 8.1, 6.23, 4.8, 12.5]])
 
+matrix4 = np.array([[5.2, 3.7, 0.5], 
+                   [8.1, 9.3, 0.75], 
+                   [3.6, 8.1, 12.5]])
+
+matrix5 = np.array([[5.2, 3.7, 1.5, 0.5],
+                   [0, 0, 0, 5],
+                   [3.6, 8.1, 6.23, 12.5]])
+
+matrix6 = np.array([[[5.2, 3.7], [1.5, 0.5]],
+                   [[0, 0], [0, 5]],
+                   [[3.6, 8.1], [6.23, 12.5]]])
+
 
 def makeTrianglePivot(matrix):
     for nrow in range(len(matrix)):
@@ -63,33 +75,43 @@ def gaussSolvePivot(A, b=None):
     """Решает систему линейных алгебраических уравнений Ax=b
     Если b is None, то свободные коэффициенты в последней колонке"""
     shape = A.shape
-    assert len(shape) == 2, ("Матрица не двумерная", shape) # двумерная матрица
-    A = A.copy()
-    if b is not None:
-        assert shape[0] == shape[1], ("Матрица не квадратная", shape)
-        assert b.shape == (shape[0],), ("Размерность свободных членов не соответствует матрице A", shape, b.shape)
-        
-
-        # добавляем свободные члены дополнительным столбцом
-        A = np.c_[A, b]
+    f = True
+    if len(shape) != 2:
+        print("Матрица не двумерная") # двумерная матрица
+        f = False
     else:
-        # Проверяем, что квадратная плюс столбец
-        assert shape[0]+1 == shape[1], ("Неверный формат матрицы", shape)
-    print('Прямой ход')
-    makeTrianglePivot(A)
-    print(A)
-    if np.linalg.matrix_rank(A) != shape[0]:
-        return "Система имеет бесконечно много решений"
-    else:
-        if np.linalg.matrix_rank(A[:,:-1]) != np.linalg.matrix_rank(A):
-            return "Система несовместна"
-            
+        A = A.copy()
+        if b is not None:
+            if shape[0] != shape[1]:
+                print("Матрица A не квадратная")
+                f = False
+            else:
+                if b.shape != (shape[0],):
+                    print("Размерность свободных членов не соответствует матрице A")
+                    f = False
+                else:
+                    # добавляем свободные члены дополнительным столбцом
+                    A = np.c_[A, b]
         else:
-            print('Обратный ход')
-            makeIdentity(A)
-            print(A)
-            return A[:,-1]
-        
+            # Проверяем, что квадратная плюс столбец
+            if shape[0]+1 != shape[1]:
+                print("Неверный формат расширенной матрицы")
+                f = False
+    if f:
+        print("Прямой ход")
+        makeTrianglePivot(A)
+        print(A)
+        if np.linalg.matrix_rank(A) != shape[0]:
+            return "Система имеет бесконечно много решений"
+        else:
+            if np.linalg.matrix_rank(A[:,:-1]) != np.linalg.matrix_rank(A):
+                return "Система несовместна"
+            
+            else:
+                print("Обратный ход")
+                makeIdentity(A)
+                print(A)
+                return A[:,-1]
 
 
 print("Ответ: ",gaussSolvePivot(matrix1))
@@ -97,3 +119,9 @@ print("Ответ: ",gaussSolvePivot(matrix1))
 print("Ответ: ",gaussSolvePivot(matrix2))
 
 print("Ответ: ",gaussSolvePivot(matrix3))
+
+print("Ответ: ",gaussSolvePivot(matrix4))
+
+print("Ответ: ",gaussSolvePivot(matrix5))
+
+print("Ответ: ",gaussSolvePivot(matrix6))
