@@ -26,6 +26,6 @@ def copy_structure_with_processing(src_dir, dest_dir, depth=0):
             process_txt_file(src_path, dest_path, depth)  # Обработка .txt файлов
 
 
-source_directory = 'путь/к/каталогу/X'
-destination_directory = 'путь/к/каталогу/копия_X'
+source_directory = 'python/task_4_4/start'
+destination_directory = 'python/task_4_4/finish'
 copy_structure_with_processing(source_directory, destination_directory)
