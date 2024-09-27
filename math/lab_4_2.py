@@ -8,4 +8,3 @@ print(B)
 print(matrix)
 
 print(f'Решение СЛУ: {np.linalg.solve(A, B)}')
-
