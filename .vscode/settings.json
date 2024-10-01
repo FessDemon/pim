@@ -1,4 +1,20 @@
 {
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.typeCheckingMode": "basic"
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4
+  },
+  // Просто настройки для примера
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.rulers": [80, 88, 100],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "telemetry.telemetryLevel": "off",
+  // ...
 }
