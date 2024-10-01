@@ -8,4 +8,3 @@ for t, x in zip(X, ['x1=', 'x2=', 'x3=']):
 
 print(X)
 print(A.dot(X) - B)
-
