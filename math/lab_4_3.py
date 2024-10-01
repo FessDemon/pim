@@ -17,11 +17,11 @@ x = np.append(x, 1)
 
 tmp = x.copy() + EPS
 
-counter = 0
+COUNTER = 0
 while abs(x - tmp).sum() > EPS:
     tmp = x.copy()
     x = a.dot(x)
     x = np.append(x, 1)
-    counter += 1
+    COUNTER += 1
 
-print(f"Ответ: {x[:-1].round()}, количество итераций: {counter}")
+print(f"Ответ: {x[:-1].round()}, количество итераций: {COUNTER}")

@@ -8,7 +8,8 @@ B = [-56.5, -100, -210]
 EPS = 0.0001
 
 
-def zeidel(A, B, EPS):
+def Zeidel(A, B, EPS):
+    """Функция решения СЛУ методом Зейделя"""
     n = len(A)
     x = np.zeros(n)  # zero vector
 
@@ -25,4 +26,4 @@ def zeidel(A, B, EPS):
     print(x)
 
 
-zeidel(A, B, EPS)
+Zeidel(A, B, EPS)
