@@ -29,3 +29,4 @@ def copy_structure_with_processing(src_dir, dest_dir, depth=0):
 source_directory = 'python/task_4_4/start'
 destination_directory = 'python/task_4_4/finish'
 copy_structure_with_processing(source_directory, destination_directory)
+
