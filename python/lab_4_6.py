@@ -1,9 +1,18 @@
 import os
 import re
 
-input_file_1 = "task_4_6/shop1.txt"
-input_file_2 = "task_4_6/shop2.txt"
-output_file = "task_4_6/shop_max.txt"
+# Инициализация рабочего каталога
+print("Введите имя каталога, содержащего файл input.txt:")
+name_dir = input()
+
+# Проверка корректности рабочего каталога
+if not (os.path.exists(name_dir)):
+    print("Такого каталога не существует. Введите корректно полное имя каталога: ")
+    name_dir = input()
+
+input_file_1 = name_dir + "/shop1.txt"
+input_file_2 = name_dir + "/shop2.txt"
+output_file = name_dir + "/shop_max.txt"
 
 # Проверка входного файла shop1.txt
 while not (os.path.exists(input_file_1)):
