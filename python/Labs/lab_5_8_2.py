@@ -1,4 +1,4 @@
-import time
+import datetime
 
 
 def is_prime(n):
@@ -19,9 +19,9 @@ def is_prime(n):
 # number = 2147483647
 number = 11111111111111111111111
 
-start_time = time.time()
+start_time = datetime.datetime.now()
 result = is_prime(number)
-end_time = time.time()
+end_time = datetime.datetime.now()
 
 print(f"Число {number} {'простое' if result else 'составное'}")
 print(f"Время выполнения (с обработкой исключений): {end_time - start_time} секунд")
