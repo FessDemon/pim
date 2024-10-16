@@ -34,4 +34,9 @@ def is_magic_square(matrix):
 
 square = [[8, 1, 6], [3, 5, 7], [4, 9, 2]]
 
-print(is_magic_square(square))
+is_magic_square(square)
+
+if is_magic_square(square) == True:
+    print("Массив является магическим квадратом")
+else:
+    print("Массив не является магическим квадратом")
