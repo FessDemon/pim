@@ -1,7 +1,7 @@
 import numpy as np
 
-# mass = np.array([[4, 5, 6], [2, 9, 0], [4, 0, 7]])
-# print(mass)
+# matrix = np.array([[4, 5, 6], [2, 9, 0], [4, 0, 7]])
+# print(matrix)
 
 
 def generate_integer_matrix(rows, cols, low, high):
@@ -11,19 +11,22 @@ def generate_integer_matrix(rows, cols, low, high):
 
 rows = 5  # Количество строк
 cols = 5  # Количество столбцов
-low = -5  # Нижняя граница
-high = 5  # Верхняя граница
+low = -10  # Нижняя граница
+high = 10  # Верхняя граница
 
 matrix = generate_integer_matrix(rows, cols, low, high)
 print(matrix)
 
+# **Определение количества строк без нулевых элементов**
+non_zero_rows_count = np.sum(~np.any(matrix == 0, axis=1))
 
-# Для первого условия
-print("количество строк, не содержащих ни одного нулевого элемента")
-print(sum(0 not in x for x in matrix))
-
-# Для второго условия
-print(
-    "максимальное значение из чисел, встречающихся в заданной матрице более одного раза"
+# **Поиск максимального значения среди чисел, встречающихся более одного раза**
+unique, counts = np.unique(matrix, return_counts=True)
+max_value_multiple_occurrences = (
+    unique[counts > 1].max() if np.any(counts > 1) else None
 )
-print(max([x for i in [[x for a in matrix for x in a]] for x in i if i.count(x) > 1]))
+
+print(f"Количество строк без нулевых элементов: {non_zero_rows_count}")
+print(
+    f"Максимальное значение из чисел, встречающихся более одного раза: {max_value_multiple_occurrences}"
+)
