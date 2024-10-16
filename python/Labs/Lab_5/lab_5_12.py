@@ -84,5 +84,4 @@ def main():
     plot_graph(color, line_style, line_width)
 
 
-if __name__ == "__main__":
-    main()
+main()
