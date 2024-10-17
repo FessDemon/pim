@@ -1,72 +1,57 @@
 import numpy as np
 
 
-def generate_array_method1(n, m):
-    """Создает массив размером n x m согласно первому способу."""
-    # Создаем пустой массив размером n x m
-    array = np.zeros((n, m), dtype=np.int)
-
-    # Заполняем первые две строки
-    for i in range(m):
-        array[0][i] = i + 1
-        array[1][i] = 2 * (i + 1) + 1
-
-    # Заполняем остальные строки
-    k = 2
-    while k < n:
-        j = 0
-        while j < m and j + k < m:
-            array[k][j] = array[k - 2][j + k]
-            j += 1
-
-        if j == m:
-            break
-
-        for l in range(k + 1, m):
-            array[k][l] = l + 1
-
-        k += 1
-
+def fill_array_method_1(n, m):
+    array = np.zeros((n, m), dtype=int)
+    num = 1
+    for col in range(m):
+        if col % 2 == 0:
+            for row in range(n):
+                array[row, col] = num
+                num += 1
+        else:
+            for row in range(n - 1, -1, -1):
+                array[row, col] = num
+                num += 1
     return array
 
 
-def generate_array_method2(n, m):
-    """Создает массив размером n x m согласно второму способу."""
-    # Создаем массив с последовательными числами от 1 до n * m
-    array = np.arange(1, n * m + 1).reshape(n, m)
-
-    # Переставляем элементы массива в обратном порядке
-    for i in range(n // 2):
-        array[[i], [m - 1 - i]] = array[[m - 1 - i], [i]]
-        array[[n - 1 - i], [m - 1 - i]] = array[[m - 1 - i], [n - 1 - i]]
-        array[[n - 1 - i], [i]] = array[[i], [n - 1 - i]]
-
+def fill_array_method_2(n, m):
+    array = np.zeros((n, m), dtype=int)
+    num = 1
+    for row in range(n):
+        if row % 2 == 0:
+            for col in range(m):
+                array[row, col] = num
+                num += 1
+        else:
+            for col in range(m - 1, -1, -1):
+                array[row, col] = num
+                num += 1
     return array
 
 
-import numpy as np
+def write_to_file(array, filename='python/Labs/Lab_5/task_5_6'):
+    np.savetxt(filename, array, fmt='%d')
 
 
-def save_array_as_text(matrix, filename):
-    """Сохраняет массив в виде текста в файл."""
-    with open(filename, "w", encoding="utf-8") as file:
-        for row in matrix:
-            for element in row:
-                file.write(str(element) + " ")
-            file.write("\n")
+def main():
+    n = int(input("Введите количество строк (n): "))
+    m = int(input("Введите количество столбцов (m): "))
+
+    method = int(input("Выберите способ заполнения (1 или 2): "))
+
+    if method == 1:
+        filled_array = fill_array_method_1(n, m)
+    elif method == 2:
+        filled_array = fill_array_method_2(n, m)
+    else:
+        print("Неверный выбор способа заполнения.")
+        return
+
+    write_to_file(filled_array)
+    print(f"Массив успешно записан в файл {'python/Labs/Lab_5/task_5_6'}.")
 
 
-# Пример использования функции
-n = 6
-m = 6
-method_num = 1
-
-if method_num == 1:
-    arr = generate_array_method1(n, m)
-elif method_num == 2:
-    arr = generate_array_method2(n, m)
-else:
-    raise ValueError("Метод должен быть равен 1 или 2")
-
-save_array_as_text(arr, f"result_{n}_{m}.txt")
-print("Результат успешно сохранен в файл result_{n}_{m}.txt")
+if __name__ == "__main__":
+    main()
