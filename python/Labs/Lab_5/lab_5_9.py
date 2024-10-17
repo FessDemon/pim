@@ -8,7 +8,8 @@ def load_texts(directory):
     texts = []
     for filename in os.listdir(directory):
         if filename.endswith(".txt"):
-            with open(os.path.join(directory, filename), "r", encoding="utf-8") as file:
+            with open(os.path.join(directory, filename), "r",
+                      encoding="utf-8") as file:
                 texts.append(file.read())
     return texts
 
@@ -28,6 +29,7 @@ def preprocess_text(text):
 
 
 def plot_word_frequency(text):
+    words = []
     words = preprocess_text(text).split()
 
     # Фильтрация коротких слов (менее 3 символов)
@@ -42,10 +44,12 @@ def plot_word_frequency(text):
     words, counts = zip(*most_common_words)
 
     plt.figure(figsize=(12, 8))
-    plt.barh(words, counts, color="skyblue")
+    plt.bar(words, counts, color="skyblue")
     plt.xlabel("Частота")
     plt.title("Частота 50 наиболее употребляемых слов")
-    plt.gca().invert_yaxis()  # Инвертировать ось Y для лучшего отображения
+    # plt.gca().invert_yaxis()  # Инвертировать ось Y для лучшего отображения
+    plt.gca().invert_xaxis()
+    plt.xticks(rotation=90)
     plt.show()
 
 
