@@ -20,8 +20,11 @@ max_elem = np.max(array)
 y = random.uniform(min_elem, max_elem)
 print("Случайное число y:", y)
 
-mult = np.prod(np.where(np.abs(array) > np.abs(y), array, 1))
-print(f"Произведение элементов массива, модуль которых больше |y| = {mult}")
+if n == 1:
+    print('Массив состоит из одного элемента, умножать нечего.')
+else:
+    mult = np.prod(np.where(np.abs(array) > np.abs(y), array, 1))
+    print(f"Произведение элементов массива, модуль которых больше |y| = {mult}")
 
 summa = np.sum(np.where(np.abs(array) <= np.abs(y), array, 0))
 print(f"Сумма модулей остальных элементов = {summa}")
