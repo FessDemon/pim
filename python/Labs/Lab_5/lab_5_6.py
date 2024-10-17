@@ -1,57 +1,48 @@
 import numpy as np
 
 
-def fill_array_method_1(n, m):
+def fill_array_first_way(n, m):
+    # Создаем пустой массив размером n x m
     array = np.zeros((n, m), dtype=int)
-    num = 1
-    for col in range(m):
-        if col % 2 == 0:
-            for row in range(n):
-                array[row, col] = num
-                num += 1
-        else:
-            for row in range(n - 1, -1, -1):
-                array[row, col] = num
-                num += 1
+
+    for i in range(1, n * m + 1):
+        row = i // m
+        col = i % m
+        array[row][col] = i
+
     return array
 
 
-def fill_array_method_2(n, m):
+def fill_array_second_way(n, m):
+    # Создаем пустой массив размером n x m
     array = np.zeros((n, m), dtype=int)
-    num = 1
-    for row in range(n):
-        if row % 2 == 0:
-            for col in range(m):
-                array[row, col] = num
-                num += 1
+
+    for i in range(m*n):
+        if i == 0 or i >= (m+1)*n/2:
+            j = int(i / n)
+            k = i % n
+            array[j][k] = i + 1
         else:
-            for col in range(m - 1, -1, -1):
-                array[row, col] = num
-                num += 1
+            j = int(i / n)
+            k = n - 1 - (i % n)
+            array[j][k] = i + 1
+
     return array
 
 
-def write_to_file(array, filename='python/Labs/Lab_5/task_5_6'):
-    np.savetxt(filename, array, fmt='%d')
+# Запрашиваем размерность массива и способ заполнения у пользователя
+n = int(input("Введите размерность n: "))
+m = int(input("Введите размерность m: "))
+mode = int(input("Введите номер способа (1 или 2): "))
 
+if mode == 1:
+    filled_array = fill_array_first_way(n, m)
+elif mode == 2:
+    filled_array = fill_array_second_way(n, m)
+else:
+    print("Неверный номер способа")
+    exit()
 
-def main():
-    n = int(input("Введите количество строк (n): "))
-    m = int(input("Введите количество столбцов (m): "))
-
-    method = int(input("Выберите способ заполнения (1 или 2): "))
-
-    if method == 1:
-        filled_array = fill_array_method_1(n, m)
-    elif method == 2:
-        filled_array = fill_array_method_2(n, m)
-    else:
-        print("Неверный выбор способа заполнения.")
-        return
-
-    write_to_file(filled_array)
-    print(f"Массив успешно записан в файл {'python/Labs/Lab_5/task_5_6'}.")
-
-
-if __name__ == "__main__":
-    main()
+# Сохраняем результат в файл
+np.savetxt('python/Labs/Lab_5/task_5_6/result.txt', filled_array, fmt='%d')
+print("Заполненный массив сохранен в файл result.txt")
