@@ -24,7 +24,7 @@ if n == 1:
     print('Массив состоит из одного элемента, умножать нечего.')
 else:
     mult = np.prod(np.where(np.abs(array) > np.abs(y), array, 1))
-    print(f"Произведение элементов массива, модуль которых больше |y| = "
+    print("Произведение элементов массива, модуль которых больше |y| = "
           f"{mult}")
 
 summa = np.sum(np.where(np.abs(array) <= np.abs(y), array, 0))
