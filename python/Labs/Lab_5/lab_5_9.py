@@ -25,6 +25,7 @@ def preprocess_text(text):
     # Приведение к нижнему регистру и удаление знаков препинания
     text = text.lower()
     text = text.translate(str.maketrans("", "", string.punctuation))
+    print(text)
     return text
 
 
@@ -47,8 +48,6 @@ def plot_word_frequency(text):
     plt.bar(words, counts, color="skyblue")
     plt.xlabel("Частота")
     plt.title("Частота 50 наиболее употребляемых слов")
-    # plt.gca().invert_yaxis()  # Инвертировать ось Y для лучшего отображения
-    plt.gca().invert_xaxis()
     plt.xticks(rotation=90)
     plt.show()
 
