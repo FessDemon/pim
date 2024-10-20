@@ -1,48 +1,95 @@
 import numpy as np
 
 
-def fill_array_first_way(n, m):
-    # Создаем пустой массив размером n x m
-    array = np.zeros((n, m), dtype=int)
+def method_1(rows, cols):
+    matrix = np.zeros((rows, cols), dtype=int)
 
-    for i in range(1, n * m + 1):
-        row = i // m
-        col = i % m
-        array[row][col] = i
+    # Список чисел для матрицы
+    numbers = list(range(1, rows * cols + 1))
 
-    return array
+    # Индекс для доступа к элементам списка numbers
+    index = 0
+
+    # Проходим по всем возможным диагоналям матрицы (их количество = rows + cols - 1)
+    for diagonal in range(rows + cols - 1):
+        if diagonal % 2 == 0:  # Для четных диагоналей (0, 2, 4,...)
+            for i in range(rows):  # Проходим по всем строкам
+                j = diagonal - i  # Вычисляем соответствующий столбец
+                # Проверяем, что индекс столбца j находится в пределах матрицы
+                if 0 <= j < cols:
+                    matrix[i, j] = numbers[
+                        index
+                    ]  # Записываем число из списка в матрицу
+                    index += 1  # Увеличиваем индекс для доступа к следующему числу
+        else:  # Для нечетных диагоналей (1, 3, 5,...)
+            for i in range(rows - 1, -1, -1):  # Проходим по строкам в обратном порядке
+                j = diagonal - i  # Вычисляем соответствующий столбец
+                # Проверяем, что индекс столбца j находится в пределах матрицы
+                if 0 <= j < cols:
+                    matrix[i, j] = numbers[
+                        index
+                    ]  # Записываем число из списка в матрицу
+                    index += 1  # Увеличиваем индекс для доступа к следующему числу
+    return matrix
 
 
-def fill_array_second_way(n, m):
-    # Создаем пустой массив размером n x m
-    array = np.zeros((n, m), dtype=int)
+def method_2(rows, cols):
+    matrix = np.zeros((rows, cols), dtype=int)
 
-    for i in range(m*n):
-        if i == 0 or i >= (m+1)*n/2:
-            j = int(i / n)
-            k = i % n
-            array[j][k] = i + 1
-        else:
-            j = int(i / n)
-            k = n - 1 - (i % n)
-            array[j][k] = i + 1
+    # Инициализируем границы для спирального движения
+    top, bottom = 0, rows - 1  # Верхняя и нижняя границы
+    left, right = 0, cols - 1  # Левая и правая границы
 
-    return array
+    # Стартовое число
+    num = 1
+
+    # Продолжаем, пока верхняя граница меньше или равна нижней, а левая меньше или равна правой
+    while top <= bottom and left <= right:
+        # Заполняем верхнюю строку (движемся слева направо)
+        for i in range(left, right + 1):
+            matrix[top, i] = num  # Записываем число в текущую ячейку
+            num += 1  # Увеличиваем число
+        top += 1  # Смещаем верхнюю границу вниз
+
+        # Заполняем правый столбец (движемся сверху вниз)
+        for i in range(top, bottom + 1):
+            matrix[i, right] = num  # Записываем число в текущую ячейку
+            num += 1  # Увеличиваем число
+        right -= 1  # Смещаем правую границу влево
+
+        # Заполняем нижнюю строку (движемся справа налево, если остались строки для заполнения)
+        if top <= bottom:
+            for i in range(right, left - 1, -1):
+                matrix[bottom, i] = num  # Записываем число в текущую ячейку
+                num += 1  # Увеличиваем число
+            bottom -= 1  # Смещаем нижнюю границу вверх
+
+        # Заполняем левый столбец (движемся снизу вверх, если остались столбцы для заполнения)
+        if left <= right:
+            for i in range(bottom, top - 1, -1):
+                matrix[i, left] = num  # Записываем число в текущую ячейку
+                num += 1  # Увеличиваем число
+            left += 1  # Смещаем левую границу вправо
+
+    return matrix
 
 
-# Запрашиваем размерность массива и способ заполнения у пользователя
-n = int(input("Введите размерность n: "))
-m = int(input("Введите размерность m: "))
-mode = int(input("Введите номер способа (1 или 2): "))
+def print_matrix(matrix, title):
+    print(title)
+    for row in matrix:
+        print(" ".join(f"{x:3}" for x in row))
+    print()
 
-if mode == 1:
-    filled_array = fill_array_first_way(n, m)
-elif mode == 2:
-    filled_array = fill_array_second_way(n, m)
-else:
-    print("Неверный номер способа")
-    exit()
 
-# Сохраняем результат в файл
-np.savetxt('python/Labs/Lab_5/task_5_6/result.txt', filled_array, fmt='%d')
-print("Заполненный массив сохранен в файл result.txt")
+def main():
+    rows, cols = 5, 5
+
+    matrix1 = method_1(rows, cols)
+    matrix2 = method_2(rows, cols)
+
+    print_matrix(matrix1, "Способ 1:")
+    print_matrix(matrix2, "Способ 2:")
+
+
+if __name__ == "__main__":
+    main()
