@@ -43,33 +43,33 @@ def method_2(rows, cols):
     # Стартовое число
     num = 1
 
-    # Продолжаем, пока верхняя граница меньше или равна нижней, а левая меньше или равна правой
     while top <= bottom and left <= right:
-        # Заполняем верхнюю строку (движемся слева направо)
-        for i in range(left, right + 1):
-            matrix[top, i] = num  # Записываем число в текущую ячейку
-            num += 1  # Увеличиваем число
-        top += 1  # Смещаем верхнюю границу вниз
+        # Заполняем верхнюю строку (слева направо)
+        matrix[top, left : right + 1] = np.arange(num, num + (right - left + 1))
+        num += right - left + 1
+        top += 1
 
-        # Заполняем правый столбец (движемся сверху вниз)
-        for i in range(top, bottom + 1):
-            matrix[i, right] = num  # Записываем число в текущую ячейку
-            num += 1  # Увеличиваем число
-        right -= 1  # Смещаем правую границу влево
-
-        # Заполняем нижнюю строку (движемся справа налево, если остались строки для заполнения)
+        # Заполняем правый столбец (сверху вниз)
         if top <= bottom:
-            for i in range(right, left - 1, -1):
-                matrix[bottom, i] = num  # Записываем число в текущую ячейку
-                num += 1  # Увеличиваем число
-            bottom -= 1  # Смещаем нижнюю границу вверх
+            matrix[top : bottom + 1, right] = np.arange(num, num + (bottom - top + 1))
+            num += bottom - top + 1
+            right -= 1
 
-        # Заполняем левый столбец (движемся снизу вверх, если остались столбцы для заполнения)
+        # Заполняем нижнюю строку (справа налево)
         if left <= right:
-            for i in range(bottom, top - 1, -1):
-                matrix[i, left] = num  # Записываем число в текущую ячейку
-                num += 1  # Увеличиваем число
-            left += 1  # Смещаем левую границу вправо
+            matrix[bottom, left : right + 1] = np.arange(num, num + (right - left + 1))[
+                ::-1
+            ]
+            num += right - left + 1
+            bottom -= 1
+
+        # Заполняем левый столбец (снизу вверх)
+        if top <= bottom:
+            matrix[top : bottom + 1, left] = np.arange(num, num + (bottom - top + 1))[
+                ::-1
+            ]
+            num += bottom - top + 1
+            left += 1
 
     return matrix
 
@@ -81,14 +81,39 @@ def print_matrix(matrix, title):
     print()
 
 
+# Запрашиваем целое положительно число - количество столбцов или количество строк
+def get_positive_int(prompt):
+    while True:
+        try:
+            value = int(input(prompt))
+            if value > 0:
+                return value
+            else:
+                print("Ошибка: введите положительное целое число.")
+        except ValueError:
+            print("Ошибка: введите целое число.")
+
+
+# Запрашиваем выбор метода заполнения матрицы (1 или 2).
+def get_method_choice():
+    while True:
+        choice = input("Выберите метод заполнения матрицы (1 или 2): ")
+        if choice in ["1", "2"]:
+            return int(choice)
+        else:
+            print("Ошибка: введите 1 или 2.")
+
+
 def main():
-    rows, cols = 5, 5
-
-    matrix1 = method_1(rows, cols)
-    matrix2 = method_2(rows, cols)
-
-    print_matrix(matrix1, "Способ 1:")
-    print_matrix(matrix2, "Способ 2:")
+    rows = get_positive_int("Введите количество строк (положительное целое число): ")
+    cols = get_positive_int("Введите количество столбцов (положительное целое число): ")
+    method = get_method_choice()
+    if method == 1:
+        matrix = method_1(rows, cols)
+        print_matrix(matrix, "Способ 1:")
+    elif method == 2:
+        matrix = method_2(rows, cols)
+        print_matrix(matrix, "Способ 2:")
 
 
 if __name__ == "__main__":
