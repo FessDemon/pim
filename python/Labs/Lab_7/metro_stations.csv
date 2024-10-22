@@ -1,0 +1,306 @@
+Station_index,English_name,Line,Russian_name,Depth,Line_Neighbors,Transfers,Opened_Date,Lat,Lon,Station_Type
+1,Bulvar Rokossovskogo,1,Бульвар Рокоссовского,-8,2,266,1990-08-01,55.8147,37.7342,column triple-span
+2,Cherkizovskaya,1,Черкизовская,-9,1 3,267,1990-08-01,55.8039,37.7447,single-vault shallow
+3,Preobrazhenskaya Ploshchad,1,Преображенская площадь,-8,2 4,,1965-12-31,55.7964,37.7150,column triple-span
+4,Sokolniki,1,Сокольники,-9,3 5,221,1935-05-15,55.7889,37.6803,single-vault shallow
+5,Krasnoselskaya,1,Красносельская,-8,4 6,,1935-05-15,55.7799,37.6673,column double-span
+6,Komsomolskaya,1,Комсомольская,-8,5 7,93,1935-05-15,55.7753,37.6561,column triple-span
+7,Krasnye Vorota,1,Красные Ворота,-31,6 8,,1935-05-15,55.7689,37.6486,pylon triple-vault
+8,Chistye Prudy,1,Чистые пруды,-35,7 9,108 205,1935-05-15,55.7658,37.6444,pylon triple-vault
+9,Lubyanka,1,Лубянка,-32.5,8 10,134,1935-05-15,55.7592,37.6272,pylon triple-vault
+10,Okhotny Ryad,1,Охотный Ряд,-15,9 11,39 65,1935-05-15,55.7577,37.6167,pylon triple-vault
+11,Biblioteka Imeni Lenina,1,Библиотека имени Ленина,-12,10 12,64 86 179,1935-05-15,55.7511,37.6100,single-vault shallow
+12,Kropotkinskaya,1,Кропоткинская,-13,11 13,,1935-05-15,55.7452,37.6036,column triple-span
+13,Park Kultury,1,Парк культуры,-10.5,12 14,87,1935-05-15,55.7356,37.5942,column triple-span
+14,Frunzenskaya,1,Фрунзенская,-42,13 15,,1957-05-01,55.7267,37.5786,pylon triple-vault
+15,Sportivnaya,1,Спортивная,-42,14 16,281,1957-05-01,55.7290,37.5639,pylon triple-vault
+16,Vorobyovy Gory,1,Воробьёвы горы,10,15 17,,1959-01-12,55.7097,37.5592,"within bridge
+"
+17,Universitet,1,Университет,-26.5,16 18,,1959-01-12,55.6925,37.5333,pylon triple-vault
+18,Prospekt Vernadskogo,1,Проспект Вернадского,-8,17 19,236,1963-12-30,55.6772,37.5061,column triple-span
+19,Yugo-Zapadnaya,1,Юго-Западная,-8,18 20,,1963-12-30,55.6636,37.4833,column triple-span
+20,Troparyovo,1,Тропарёво,-12,19 21,,2014-12-08,55.6458,37.4725,single-vault shallow
+21,Rumyantsevo,1,Румянцево,-12,20 22,,2016-01-18,55.6331,37.4419,column triple-span
+22,Salaryevo,1,Саларьево,-12,21 23,,2016-02-15,55.6275,37.4214,column triple-span
+23,Filatov Lug,1,Филатов Луг,0,22 24,,2019-06-20,55.6014,37.4078,surface open
+24,Prokshino,1,Прокшино,0,23 25,,2019-06-20,55.5861,37.4339,surface open
+25,Olkhovaya,1,Ольховая,-12,24 26,,2019-06-20,55.5686,37.4594,single-span shallow
+26,Novomoskovskaya,1,Новомосковская,-8,25 27,,2019-06-20,55.5547,37.4689,column triple-span
+27,Potapovo,1,Потапово,0,26,,2024-09-05,55.5526,37.4931,surface open
+28,Khovrino,2,Ховрино,-14,29,,2017-12-31,55.8791,37.4822,column double-span
+29,Belomorskaya,2,Беломорская,-18,28 30,,2018-12-20,55.8658,37.4764,column double-span
+30,Rechnoy Vokzal,2,Речной вокзал,-6,29 31,,1964-12-31,55.8549,37.4761,column triple-span
+31,Vodny Stadion,2,Водный стадион,-6,30 32,,1964-12-31,55.8398,37.4867,column triple-span
+32,Voykovskaya,2,Войковская,-7,31 33,288 289,1964-12-31,55.8190,37.4980,column triple-span
+33,Sokol,2,Сокол,-9.6,32 34,,1938-09-11,55.8051,37.5153,column double-span
+34,Aeroport,2,Аэропорт,-10,33 35,,1938-09-11,55.8003,37.5329,single-vault shallow
+35,Dinamo,2,Динамо,-39.6,34 36,248,1938-09-11,55.7897,37.5580,pylon triple-vault
+36,Belorusskaya,2,Белорусская,-33.1,35 37,96,1938-09-11,55.7767,37.5835,pylon triple-vault
+37,Mayakovskaya,2,Маяковская,-33.1,36 38,,1938-09-11,55.7701,37.5958,column triple-vault
+38,Tverskaya,2,Тверская,-42,37 39,133 178,1979-07-20,55.7647,37.6065,pylon triple-vault
+39,Teatralnaya,2,Театральная,-33.9,38 40,10 65,1938-09-11,55.7578,37.6190,pylon triple-vault
+40,Novokuznetskaya,2,Новокузнецкая,-37.5,39 41,110 160,1943-11-20,55.7415,37.6295,pylon triple-vault
+41,Paveletskaya,2,Павелецкая,-33.5,40 42,90,1943-11-20,55.7305,37.6377,column triple-vault
+42,Avtozavodskaya,2,Автозаводская,-11,41 43,276,1943-01-01,55.7074,37.6576,column triple-vault
+43,Tekhnopark,2,Технопарк,0,42 44,,2015-12-28,55.6950,37.6641,surface open
+44,Kolomenskaya,2,Коломенская,-9,43 45,,1969-08-11,55.6785,37.6638,column triple-vault
+45,Kashirskaya,2,Каширская,-7,44 46,230,1969-08-11,55.6551,37.6487,column triple-vault
+46,Kantemirovskaya,2,Кантемировская,-8,45 47,,1984-12-30,55.6358,37.6564,single-vault shallow
+47,Tsaritsyno,2,Царицыно,-8,46 48,,1984-12-30,55.6214,37.6694,column triple-vault
+48,Orekhovo,2,Орехово,-9,47 49,,1984-12-30,55.6132,37.6949,column triple-vault
+49,Domodedovskaya,2,Домодедовская,-9.5,48 50,,1985-09-07,55.6108,37.7186,column triple-vault
+50,Krasnogvardeyskaya,2,Красногвардейская,-9,49 51,218,1985-09-07,55.6137,37.7444,single-vault shallow
+51,Alma-Atinskaya,2,Алма-Атинская,-10,50,,2012-12-24,55.6326,37.7660,single-vault shallow
+52,Pyatnitskoye Shosse,3,Пятницкое шоссе,-11,53,,2012-12-28,55.8563,37.3544,column double-span
+53,Mitino,3,Митино,-14,52 54,,2009-12-26,55.8457,37.3622,single-vault shallow
+54,Volokolamskaya,3,Волоколамская,-14,53 55,,2009-12-26,55.8354,37.3822,column triple-span
+55,Myakinino,3,Мякинино,0,54 56,,2009-12-26,55.8252,37.3852,surface single-span
+56,Strogino,3,Строгино,-8,55 57,,2008-01-07,55.8038,37.4031,single-vault shallow
+57,Krylatskoye,3,Крылатское,-95,56 58,,1989-12-31,55.7567,37.4081,single-vault shallow
+58,Molodyozhnaya,3,Молодёжная,-65,57 59,,1965-07-05,55.7408,37.4168,column triple-span
+59,Kuntsevskaya,3,Кунцевская,0,58 60,74 240,2008-01-07,55.7307,37.4459,surface open
+60,Slavyansky Bulvar,3,Славянский бульвар,-85,59 61,,2008-09-07,55.7296,37.4706,single-vault shallow
+61,Park Pobedy,3,Парк Победы,-73.6,60 62,158,2003-05-06,55.7362,37.5182,pylon triple-vault
+62,Kiyevskaya,3,Киевская,-38,61 63,83 98,1953-04-05,55.7442,37.5645,pylon triple-vault
+63,Smolenskaya,3,Смоленская,-50,62 64,,1953-04-05,55.7474,37.5823,pylon triple-vault
+64,Arbatskaya,3,Арбатская,-41,63 65,86 11 179,1953-04-05,55.7522,37.6061,pylon triple-vault
+65,Ploshchad Revolyutsii,3,Площадь Революции,-33.6,64 66,39 10,1938-03-13,55.7566,37.6216,pylon triple-vault
+66,Kurskaya,3,Курская,-30.7,65 67,92 206,1938-03-13,55.7576,37.6577,pylon triple-vault
+67,Baumanskaya,3,Бауманская,-32.5,66 68,,1944-01-18,55.7730,37.6806,pylon triple-vault
+68,Elektrozavodskaya,3,Электрозаводская,-31.5,67 69,222,1944-05-15,55.7817,37.7037,pylon triple-vault
+69,Semyonovskaya,3,Семёновская,-40,68 70,,1944-01-18,55.7833,37.7208,pylon triple-vault
+70,Partizanskaya,3,Партизанская,-9,69 71,268,1944-01-18,55.7886,37.7506,column triple-span
+71,Izmaylovskaya,3,Измайловская,0,70 72,,1961-10-21,55.7878,37.7814,surface open
+72,Pervomayskaya,3,Первомайская,-7,71 73,,1961-10-21,55.7948,37.7993,column triple-span
+73,Shchyolkovskaya,3,Щёлковская,-8,72,,1963-07-22,55.8094,37.7986,column triple-span
+74,Kuntsevskaya,4,Кунцевская,0,75,59 240,1965-08-31,55.7307,37.4459,surface open
+75,Pionerskaya,4,Пионерская,0,74 76,,1961-10-13,55.7360,37.4671,surface open
+76,Filyovsky Park,4,Филевский парк,0,75 77,,1961-10-13,55.7396,37.4833,surface open
+77,"Bagrationovskaya
+",4,Багратионовская,0,76 78,,1961-10-13,55.7438,37.4977,surface open
+78,Fili,4,Фили,0,77 79,,1959-11-07,55.7460,37.5150,surface open
+79,Kutuzovskaya,4,Кутузовская,0,78 80,282,1958-11-07,55.7399,37.5344,surface open
+80,Studencheskaya,4,Студенческая,0,79 81,,1958-11-07,55.7388,37.5483,surface open
+81,Moskva-City,4,Москва-Сити,-25,82,283,2006-08-30,55.7483,37.5339,column triple-vault
+82,Delovoy Tsentr,4,Деловой центр,-25,81 83,159,2005-09-10,55.7502,37.5408,column triple-vault
+83,Kiyevskaya,4,Киевская,-8.7,82 80 84,62 98,1937-03-20,55.7436,37.5655,column triple-vault
+84,Smolenskaya,4,Смоленская,-8,83 85,,1935-05-15,55.7488,37.5825,column triple-vault
+85,Arbatskaya,4,Арбатская,-8,84 86,,1935-05-15,55.7518,37.6007,column triple-vault
+86,Aleksandrovsky Sad,4,Александровский сад,-7,85,64 179 11,1935-05-15,55.7525,37.6085,column triple-vault
+87,Park Kultury,5,Парк культуры,-40,88 98,13,1950-01-01,55.7357,37.5915,pylon triple-vault
+88,Oktyabrskaya,5,Октябрьская,-40,87 89,111,1950-01-01,55.7297,37.6091,pylon triple-vault
+89,Dobryninskaya,5,Добрынинская,-35.5,88 90,181,1950-01-01,55.7291,37.6243,pylon triple-vault
+90,Paveletskaya,5,Павелецкая,-40,89 91,41,1950-01-01,55.7318,37.6379,pylon triple-vault
+91,Taganskaya,5,Таганская,-53,90 92,136 161,1950-01-01,55.7418,37.6517,pylon triple-vault
+92,Kurskaya,5,Курская,-40,91 93,206 66,1950-01-01,55.7570,37.6595,column triple-vault
+93,Komsomolskaya,5,Комсомольская,-37,92 94,6,1952-01-30,55.7748,37.6549,column triple-vault
+94,Prospekt Mira,5,Проспект Мира,-40,93 95,106,1952-01-30,55.7798,37.6318,column triple-vault
+95,Novoslobodskaya,5,Новослободская,-40,94 96,176,1952-01-30,55.7799,37.6028,column triple-vault
+96,Belorusskaya,5,Белорусская,-42.5,95 97,36,1952-01-30,55.7764,37.5844,column triple-vault
+97,Krasnopresnenskaya,5,Краснопресненская,-35.5,96 98,132,1954-03-14,55.7613,37.5774,column triple-vault
+98,Kiyevskaya,5,Киевская,-48,87 97,62 83,1954-03-14,55.7446,37.5644,column triple-vault
+99,Medvedkovo,6,Медведково                                                                              ,-10,100,,1978-09-29,55.8872,37.6613,column triple-span
+100,Babushkinskaya,6,Бабушкинская                                                                            ,-10,99 101,,1978-09-29,55.8694,37.6644,single-vault shallow
+101,Sviblovo,6,Свиблово                                                                                ,-8,100 102,,1978-09-29,55.8552,37.6527,column triple-span
+102,Botanichesky Sad,6,Ботанический сад                                                                        ,-7,101 103,263,1978-09-29,55.8449,37.6383,column triple-span
+103,VDNKh,6,ВДНХ                                              ,-53.5,102 104,,1958-05-01,55.8211,37.6411,pylon triple-vault
+104,Alekseyevskaya,6,Алексеевская,-51,103 105,,1958-05-01,55.8088,37.6390,pylon triple-vault
+105,Rizhskaya,6,Рижская                                                                                 ,-46,104 106,220,1958-05-01,55.7936,37.6362,pylon triple-vault
+106,Prospekt Mira,6,Проспект Мира                        ,-50,105 107,94,1958-05-01,55.7812,37.6318,pylon triple-vault
+107,Sukharevskaya,6,Сухаревская                                  ,-43,106 108,,1972-01-05,55.7733,37.6319,pylon triple-vault
+108,Turgenevskaya,6,Тургеневская                                                                            ,-49,107 109,8 205,1972-01-05,55.7661,37.6374,pylon triple-vault
+109,Kitay-gorod,6,Китай-город                             ,-29,108 110,135,1971-01-03,55.7553,37.6333,column triple-vault
+110,Tretyakovskaya,6,Третьяковская                         ,-46,109 111,40 160,1971-01-03,55.7412,37.6274,pylon triple-vault
+111,Oktyabrskaya,6,Октябрьская                                                                             ,-50,110 112,88,1962-10-13,55.7306,37.6112,pylon triple-vault
+112,Shabolovskaya,6,Шаболовская                                                                             ,-46.5,111 113,,1980-11-05,55.7198,37.6083,pylon triple-vault
+113,Leninsky Prospekt,6,Ленинский проспект                                                                      ,-16,112 114,280,1962-10-13,55.7077,37.5861,column triple-span
+114,Akademicheskaya,6,Академическая                                                                           ,-85,113 115,,1962-10-13,55.6877,37.5733,column triple-span
+115,Profsoyuznaya,6,Профсоюзная                                                                             ,-7,114 116,,1962-10-13,55.6780,37.5627,column triple-span
+116,Novye Cheryomushki,6,Новые Черемушки                                                                         ,-7,115 117,,1962-10-13,55.6702,37.5544,column triple-span
+117,Kaluzhskaya,6,Калужская                                                                               ,-10,116 118,234,1974-08-12,55.6571,37.5405,column triple-span
+118,Belyayevo,6,Беляево                                                                                 ,-12,117 119,,1974-08-12,55.6428,37.5257,column triple-span
+119,Konkovo,6,Коньково                                                                                ,-8,118 120,,1987-11-06,55.6333,37.5188,single-vault shallow
+120,Tyoply Stan,6,Тёплый Стан                                                                             ,-8,119 121,,1987-11-06,55.6191,37.5082,column triple-span
+121,Yasenevo,6,Ясенево                                                                                 ,-8,120 122,,1990-01-17,55.6063,37.5333,column triple-span
+122,Novoyasenevskaya,6,Новоясеневская                         ,-7,121,248,1990-01-17,55.6010,37.5541,column triple-span
+123,Planernaya,7,Планерная                                                                               ,-6,124,,1975-12-30,55.8607,37.4364,column triple-span
+124,Skhodnenskaya,7,Сходненская                                                                             ,-6,123 125,,1975-12-30,55.8505,37.4396,single-vault shallow
+125,Tushinskaya,7,Тушинская                                                                               ,-10.5,124 126,,1975-12-30,55.8267,37.4368,column triple-span
+126,Spartak,7,Спартак                                                                                 ,-10,125 127,,2014-08-27,55.8182,37.4352,column triple-span
+127,Shchukinskaya,7,Щукинская                                                                               ,-13,126 128,,1975-12-30,55.8086,37.4641,column triple-span
+128,Oktyabrskoye Pole,7,Октябрьское Поле                                                                        ,-9,127 129,286 287,1972-12-30,55.7935,37.4935,column triple-span
+129,Polezhayevskaya,7,Полежаевская                                                                            ,-10,128 130,285 244,1972-12-30,55.7775,37.5192,column triple-span
+130,Begovaya,7,Беговая                                                                                 ,-9,129 131,,1972-12-30,55.7738,37.5468,column triple-span
+131,Ulitsa 1905 Goda,7,Улица 1905 года,-11,130 132,,1972-12-30,55.7650,37.5613,column triple-span
+132,Barrikadnaya,7,Баррикадная                                                                             ,-30,131 133,97,1972-12-30,55.7612,37.5795,pylon triple-vault
+133,Pushkinskaya,7,Пушкинская                                                                              ,-51,132 134,38 178,1975-12-17,55.7650,37.6079,column triple-vault
+134,Kuznetsky Most,7,Кузнецкий Мост                                                                          ,-39.5,133 135,9,1975-12-17,55.7606,37.6259,column triple-vault
+135,Kitay-gorod,7,Китай-город                              ,-29,134 136,109,1971-01-03,55.7553,37.6333,column triple-vault
+136,Taganskaya,7,Таганская                                                                               ,-36,135 137,91 161,1966-12-31,55.7402,37.6522,pylon triple-vault
+137,Proletarskaya,7,Пролетарская                                                                            ,-9,136 138,208,1966-12-31,55.7319,37.6659,column triple-span
+138,Volgogradsky Prospekt,7,Волгоградский проспект                                                                  ,-8,137 139,274,1966-12-31,55.7253,37.6869,column triple-span
+139,Tekstilshchiki,7,Текстильщики                                                                            ,-13,138 140,226,1966-12-31,55.7088,37.7316,column triple-span
+140,Kuzminki,7,Кузьминки                                                                               ,-8,139 141,,1966-12-31,55.7056,37.7656,column triple-span
+141,Ryazansky Prospekt,7,Рязанский проспект                                                                      ,-6,140 142,,1966-12-31,55.7170,37.7933,column triple-span
+142,Vykhino,7,Выхино                                      ,0,141 143,,1966-12-31,55.7156,37.8181,surface open
+143,Lermontovsky Prospekt,7,Лермонтовский проспект                                                                  ,-12,142 144,296,2013-11-09,55.7013,37.8525,single-vault shallow
+144,Zhulebino,7,Жулебино                                                                                ,-15,143 145,,2013-11-09,55.6855,37.8563,column double-span
+145,Kotelniki,7,Котельники                                                                              ,-15,144,,2015-09-21,55.6743,37.8582,column double-span
+146,Aeroport Vnukovo,8,Аэропорт Внуково,0,147,,2023-09-06,55.6072,37.2875,column double-span
+147,Pykhtino,8,Пыхтино,0,146 148,,2023-09-06,55.6247,37.2962,surface open
+148,Rasskazovka,8,Рассказовка,-12,147 149,,2018-08-30,55.6339,37.3347,column double-span
+149,Novoperedelkino,8,Новопеределкино,-16,148 150,,2018-08-30,55.6396,37.3552,column double-span
+150,Borovskoye Shosse,8,Боровское Шоссе,-20,149 151,,2018-08-30,55.6476,37.3701,column double-span
+151,Solntsevo,8,Солнцево,-13,150 152,,2018-08-30,55.6493,37.3909,column double-span
+152,Govorovo,8,Говорово,-14,151 153,,2018-08-30,55.6595,37.4172,column double-span
+153,Ozyornaya,8,Озёрная,-25,152 154,,2018-08-30,55.6709,37.4491,column double-span
+154,Michurinsky Prospekt,8,Мичуринский проспект,-13,153 155,237,2018-08-30,55.6896,37.4833,column triple-span
+155,Ramenki,8,Раменки,-15,154 156,,2017-03-16,55.6975,37.4984,column double-span
+156,Lomonosovsky Prospekt,8,Ломоносовский проспект,-15,155 157,,2017-03-16,55.7069,37.5156,column double-span
+157,Minskaya,8,Минская,-15,156 158,,2017-03-16,55.7246,37.4970,column double-span
+158,Park Pobedy,8,Парк Победы,-73.6,157 159,61,2003-05-06,55.7362,37.5182,pylon triple-vault
+159,Delovoy Tsentr,8,Деловой центр,-30,158,82,2014-01-31,55.7475,37.5319,column triple-span
+160,Tretyakovskaya,8,Третьяковская,-46,161,40 110,1986-01-25,55.7412,37.6274,pylon triple-vault
+161,Marksistskaya,8,Марксистская,-60,160 162,91 136,1979-12-30,55.7411,37.6543,column triple-span
+162,Ploshchad Ilyicha,8,Площадь Ильича,-46,161 163,207,1979-12-30,55.7472,37.6824,pylon triple-vault
+163,Aviamotornaya,8,Авиамоторная,-53,162 164,224,1979-12-30,55.7524,37.7191,column triple-vault
+164,Shosse Entuziastov,8,Шоссе Энтузиастов,-53,163 165,270,1979-12-30,55.7576,37.7500,pylon triple-vault
+165,Perovo,8,Перово,-9,164 166,,1979-12-30,55.7511,37.7866,single-vault shallow
+166,Novogireyevo,8,Новогиреево,-9,165 167,,1979-12-30,55.7517,37.8166,column triple-vault
+167,Novokosino,8,Новокосино,-9,166,,2012-08-30,55.7451,37.8638,single-vault shallow
+168,Altufyevo,9,Алтуфьево,-9,169,,1994-07-15,55.8980,37.5870,single-vault shallow
+169,Bibirevo,9,Бибирево,-9.5,168 170,,1992-12-31,55.8838,37.6034,column triple-span
+170,Otradnoye,9,Отрадное,-9,169 171,,1991-03-01,55.8633,37.6047,single-vault shallow
+171,Vladykino,9,Владыкино,-10.5,170 172,262,1991-03-01,55.8473,37.5899,column triple-span
+172,Petrovsko-Razumovskaya,9,Петровско-Разумовская,-61,171 173,199,1991-03-01,55.8351,37.5745,column triple-span
+173,Timiryazevskaya,9,Тимирязевская,-63.5,172 174,255,1991-03-01,55.8176,37.5765,single-vault deep
+174,Dmitrovskaya,9,Дмитровская,-59,173 175,,1991-03-01,55.8069,37.5817,pylon triple-vault
+175,Savyolovskaya,9,Савёловская,-52,174 176,247,1988-12-31,55.7927,37.5885,pylon triple-vault
+176,Mendeleyevskaya,9,Менделеевская,-48.5,175 177,95,1988-12-31,55.7810,37.6011,column triple-vault
+177,Tsvetnoy Bulvar,9,Цветной бульвар,-50,176 178,204,1988-12-31,55.7708,37.6187,pylon triple-vault
+178,Chekhovskaya,9,Чеховская,-62,177 179,38 133,1987-12-31,55.7644,37.6097,pylon triple-vault
+179,Borovitskaya,9,Боровицкая,-46.5,178 180,11 64 86,1986-01-23,55.7511,37.6072,pylon triple-vault
+180,Polyanka,9,Полянка,-36.5,179 181,,1986-01-23,55.7379,37.6180,column triple-vault
+181,Serpukhovskaya,9,Серпуховская,-43,180 182,89,1983-11-08,55.7280,37.6246,pylon triple-vault
+182,Tulskaya,9,Тульская,-9.5,181 183,,1983-11-08,55.7087,37.6229,single-vault shallow
+183,Nagatinskaya,9,Нагатинская,-13.5,182 184,278,1983-11-08,55.6830,37.6224,column triple-span
+184,Nagornaya,9,Нагорная,-9,183 185,,1983-11-08,55.6724,37.6104,column triple-span
+185,Nakhimovsky Prospekt,9,Нахимовский проспект,-9.5,184 186,,1983-11-08,55.6627,37.6055,single-vault shallow
+186,Sevastopolskaya,9,Севастопольская,-13,185 187,232,1983-11-08,55.6524,37.5984,column triple-span
+187,Chertanovskaya,9,Чертановская,-10.5,186 188,,1983-11-08,55.6405,37.6067,column triple-span
+188,Yuzhnaya,9,Южная,-10,187 189,,1983-11-08,55.6224,37.6090,single-vault shallow
+189,Prazhskaya,9,Пражская,-9.5,188 190,,1985-11-06,55.6124,37.6044,column triple-span
+190,Ulitsa Akademika Yangelya,9,Улица Академика Янгеля,-8,189 191,,2000-08-31,55.5949,37.6004,single-vault shallow
+191,Annino,9,Аннино,-8,190 192,,2001-12-12,55.5828,37.5966,single-vault shallow
+192,Bulvar Dmitriya Donskogo,9,Бульвар Дмитрия Донского,-10,191,250,2002-12-26,55.5693,37.5769,column triple-span
+193,Fiztekh,10,Физтех,-25,194,,2023-09-07,55.9207,37.5462,column triple-span
+194,Lianozovo,10,Лианозово,-25,193 195,,2023-09-07,55.8986,37.5448,column triple-span
+195,Yakhromskaya,10,Яхромская,-25,194 196,,2023-09-07,55.8799,37.5454,column triple-span
+196,Seligerskaya,10,Селигерская,-20,195 197,,2018-03-22,55.865000,37.548333,column triple-span
+197,Verkhnie Likhobory,10,Верхние Лихоборы,-65,196 198,,2018-03-22,55.855833,37.561111,pylon triple-vault
+198,Okruzhnaya,10,Окружная,-65,197 199,261,2018-03-22,55.846000,37.574250,pylon triple-vault
+199,Petrovsko-Razumovskaya,10,Петровско-Разумовская,-61,198 200,172,1991-03-01,55.8351,37.5745,column triple-vault
+200,Fonvizinskaya,10,Фонвизинская,-65,199 201,,2016-09-16,55.8228,37.5881,pylon triple-vault
+201,Butyrskaya,10,Бутырская,-60,200 202,,2016-09-16,55.8133,37.6028,pylon triple-vault
+202,Maryina Roshcha,10,Марьина Роща,-60,201 203,219,2010-06-19,55.7954,37.6162,pylon triple-vault
+203,Dostoyevskaya,10,Достоевская,-60,202 204,,2010-06-19,55.7816,37.6151,column triple-vault
+204,Trubnaya,10,Трубная,-60,203 205,177,2007-08-30,55.7688,37.6200,column triple-vault
+205,Sretensky Bulvar,10,Сретенский бульвар,-60,204 206,8 108,2007-12-29,55.7668,37.6392,pylon triple-vault
+206,Chkalovskaya,10,Чкаловская,-51,205 207,66,1995-12-28,55.7565,37.6573,pylon triple-vault
+207,Rimskaya,10,Римская,-54,206 208,162,1995-12-28,55.7463,37.6819,column triple-vault
+208,Krestyanskaya Zastava,10,Крестьянская застава,-47,207 209,137,1995-12-28,55.7331,37.6673,column triple-vault
+209,Dubrovka,10,Дубровка,-62,208 210,275,1999-12-11,55.7186,37.6760,column triple-vault
+210,Kozhukhovskaya,10,Кожуховская,-12,209 211,275,1995-12-28,55.7074,37.6851,single-vault shallow
+211,Pechatniki,10,Печатники,-4,210 212,227,1995-12-28,55.6934,37.7270,column triple-span
+212,Volzhskaya,10,Волжская,-8,211 213,,1995-12-28,55.6909,37.7530,single-span
+213,Lyublino,10,Люблино,-8,212 214,,1996-12-25,55.6758,37.7618,single-vault shallow
+214,Bratislavskaya,10,Братиславская,-8,213 215,,1996-12-25,55.6597,37.7505,column double-span
+215,Maryino,10,Марьино,-8,214 216,,1996-12-25,55.6500,37.7431,single-span
+216,Borisovo,10,Борисово,-10,215 217,,2011-12-02,55.6334,37.7436,single-vault shallow
+217,Shipilovskaya,10,Шипиловская,-10,216 218,,2011-12-02,55.6211,37.7437,single-vault shallow
+218,Zyablikovo,10,Зябликово,-15,217,50,2011-12-02,55.6124,37.7453,single-vault shallow
+219,Maryina Roshcha,11,Марьина Роща,-70,220 247,202,2023-03-01,55.7945,37.6164,pylon triple-vault
+220,Rizhskaya,11,Рижская,-63.5,219 221,105,2023-03-01,55.7926,37.6362,pylon triple-vault
+221,Sokolniki,11,Сокольники,-34,220 222,4,2023-03-01,55.7903,37.679,column double-span
+222,Elektrozavodskaya,11,Электрозаводская,-20,221 223,68,2020-12-31,55.780292,37.703013,column triple-span
+223,Lefortovo,11,Лефортово,-23,222 224,,2020-03-27,55.764738,37.706747,column double-span
+224,Aviamotornaya,11,Авиамоторная,-19,223 225,163,2020-03-27,55.753670,37.719149,column triple-span
+225,Nizhegorodskaya,11,Нижегородская,-22,224 226,272 292,2020-03-27,55.731748,37.730076,column triple-span
+226,Tekstilshchiki,11,Текстильщики,-22,225 227,139,2023-03-01,55.7070,37.7284,column triple-span
+227,Pechatniki,11,Печатники,-30,226 228,211,2023-03-01,55.694,37.727,column triple-span
+228,Nagatinsky Zaton,11,Нагатинский затон,-27,227 229,,2023-03-01,55.6845,37.7050,column triple-span
+229,Klenovy Bulvar,11,Кленовый бульвар,-24,228 230,,2023-03-01,55.6755,37.6846,column triple-span
+230,Kashirskaya,11,Каширская,-7,229 231,45,1969-08-11,55.6551,37.6487,column triple-span
+231,Varshavskaya,11,Варшавская,-9,230 232,,1969-08-11,55.6533,37.6194,column double-span
+232,Kakhovskaya,11,Каховская,-8,231 233,186,1969-08-11,55.6530,37.5983,column triple-span
+233,Zyuzino,11,Зюзино,-17,232 234,,2021-12-07,55.6563,37.5721,column double-span
+234,Vorontsovskaya,11,Воронцовская,-23,233 235,117,2021-12-07,55.6587,37.5399,column triple-span
+235,Novatorskaya,11,Новаторская,-11,234 236,300,2021-12-07,55.6701,37.5218,column double-span
+236,Prospekt Vernadskogo,11,Проспект Вернадского,-16,235 237,18,2021-12-07,55.6778,37.5050,column triple-span
+237,Michurinsky Prospekt,11,Мичуринский проспект,-19,236 238,154,2021-12-07,55.6884,37.4851,column triple-span
+238,Aminyevskaya,11,Аминьевская,-33,237 239,,2021-12-07,55.6972,37.4642,column triple-span
+239,Davydkovo,11,Давыдково,-33,238 240,,2021-12-07,55.7153,37.4517,column double-span
+240,Kuntsevskaya,11,Кунцевская,-31,239 241,59 74,2021-12-07,55.7304,37.4457,column triple-span
+241,Terekhovo,11,Терехово,-22,240 242,,2021-12-07,55.7492,37.4606,column triple-span
+242,Mnyovniki,11,Мнёвники,-28,241 243,,2021-04-01,55.7585,37.4708,column triple-span
+243,Narodnoye Opolcheniye,11,Народное Ополчение,-27,242 244,,2021-04-01,55.7738,37.4844,column triple-span
+244,Khoroshyovskaya,11,Хорошёвская,-21,243 245,129 285,2018-02-26,55.7768,37.5207,column triple-span
+245,CSKA,11,ЦСКА,-28,244 246,,2018-02-26,55.7866,37.5333,column triple-span
+246,Petrovsky Park,11,Петровский парк,-25,245 247,35,2018-02-26,55.7918,37.5571,column triple-span
+247,Savyolovskaya,11,Савёловская,-65,219 246,175,2018-12-30,55.7936,37.5880,pylon triple-vault
+248,Bittsevsky Park,12,Битцевский парк,-10,249,122,2014-02-27,55.6004,37.5562,single-vault shallow
+249,Lesoparkovaya,12,Лесопарковая,-10,248 250,,2014-02-27,55.5821,37.5769,single-vault shallow
+250,Ulitsa Starokachalovskaya,12,Улица Старокачаловская,-10,249 251,192,2003-12-27,55.5690,37.5767,single-span two halls
+251,Ulitsa Skobelevskaya,12,Улица Скобелевская,10,250 252,,2003-12-27,55.5481,37.5546,elevated open
+252,Bulvar Admirala Ushakova,12,Бульвар Адмирала Ушакова,10,251 253,,2003-12-27,55.5455,37.5430,elevated open
+253,Ulitsa Gorchakova,12,Улица Горчакова,10,252 254,,2003-12-27,55.5418,37.5308,elevated open
+254,Buninskaya Alleya,12,Бунинская аллея,10,253,,2003-12-27,55.5380,37.5158,elevated open
+255,Timiryazevskaya,13,Тимирязевская,6,256,,2004-11-20,55.8190,37.5789,elevated open
+256,Ulitsa Milashenkova,13,Улица Милашенкова,6,255 257,,2004-11-20,55.8218,37.5911,elevated open
+257,Teletsentr,13,Телецентр,6,256 258,,2004-11-20,55.8218,37.6089,elevated open
+258,Ulitsa Akademika Korolyova,13,Улица Академика Королёва,12,257 259,,2004-11-20,55.8218,37.6269,elevated open
+259,Vystavochny Tsentr,13,Выставочный центр,6,258 260,,2004-11-20,55.8240,37.6383,elevated open
+260,Ulitsa Sergeya Eyzenshteyna,13,Улица Сергея Эйзенштейна,6,259,,2004-11-20,55.8292,37.6449,elevated open
+261,Okruzhnaya,14,Окружная,0,262 291,198,2016-09-10,55.8472,37.5694,surface
+262,Vladykino,14,Владыкино,0,261 263,171 262,2016-09-10,55.8476,37.5930,surface
+263,Botanichesky Sad,14,Ботанический сад,0,262 264,102,2016-09-10,55.8460,37.6413,surface
+264,Rostokino,14,Ростокино,0,263 265,,2016-09-10,55.8400,37.6653,surface
+265,Belokamennaya,14,Белокаменная,0,264 266,,2016-09-10,55.8300,37.7006,surface
+266,Bulvar Rokossovskogo,14,Бульвар Рокоссовского,0,265 267,1,2016-09-10,55.8172,37.7369,surface
+267,Lokomotiv,14,Локомотив,0,266 268,2,2016-09-10,55.8039,37.7460,surface
+268,Izmaylovo,14,Измайлово,0,267 269,70,2016-09-10,55.7886,37.7428,surface
+269,Sokolinaya Gora,14,Соколиная Гора,0,268 270,,2016-10-11,55.7714,37.7451,surface
+270,Shosse Entuziastov,14,Шоссе Энтузиастов,0,269 271,164,2016-09-10,55.7590,37.7463,surface
+271,Andronovka,14,Андроновка,0,270 272,,2016-09-10,55.7411,37.7344,surface
+272,Nizhegorodskaya,14,Нижегородская,5,271 273,225 292,2016-09-10,55.7322,37.7282,elevated
+273,Novokhokhlovskaya,14,Новохохловская,0,272 274,,2016-09-10,55.7239,37.7161,surface
+274,Ugreshskaya,14,Угрешская,0,273 275,138,2016-09-10,55.7183,37.6978,surface
+275,Dubrovka,14,Дубровка,0,274 276,209 210,2016-10-11,55.7183,37.6978,surface
+276,Avtozavodskaya,14,Автозаводская,0,275 277,42,2016-09-10,55.7063,37.6631,surface
+277,ZIL,14,ЗИЛ,0,276 278,,2016-09-10,55.6983,37.6483,surface
+278,Verkhniye Kotly,14,Верхние Котлы,0,277 279,183,2016-09-10,55.6900,37.6189,surface
+279,Krymskaya,14,Крымская,0,278 280,,2016-09-10,55.6900,37.6050,surface
+280,Ploshchad Gagarina,14,Площадь Гагарина,-5,279 281,113,2016-09-10,55.7069,37.5858,underground
+281,Luzhniki,14,Лужники,5,280 282,15,2016-09-10,55.7203,37.5631,surface
+282,Kutuzovskaya,14,Кутузовская,0,281 283,79,2016-09-10,55.7408,37.5333,surface
+283,Moskva-City,14,Москва-сити,7,282 284,81 283,2016-09-10,55.7472,37.5322,elevated
+284,Shelepikha,14,Шелепиха,5,283 285,,2016-09-10,55.7575,37.5256,elevated
+285,Khoroshyovo,14,Хорошёво,0,284 286,129 244,2016-09-10,55.7772,37.5072,surface
+286,Zorge,14,Зорге,0,285 287,128,2016-11-04,55.7878,37.5045,surface
+287,Panfilovskaya,14,Панфиловская,0,286 288,128,2016-11-08,55.7991,37.4988,surface
+288,Streshnevo,14,Стрешнево,0,287 289,32,2016-09-10,55.8136,37.4869,surface
+289,Baltiyskaya,14,Балтийская,0,288 290,32,2016-09-10,55.8258,37.4961,surface
+290,Koptevo,14,Коптево,0,289 291,,2016-11-01,55.8397,37.5203,surface
+291,Likhobory,14,Лихоборы,0,290 261,,2016-09-10,55.8472,37.5513,surface
+292,Nizhegorodskaya,15,Нижегородская,-22,293,225 272,2020-03-27,55.731748,37.730076,column triple-span
+293,Stakhanovskaya,15,Стахановская,-19,292 294,,2020-03-27,55.7250,37.7619,column triple-span
+294,Okskaya,15,Окская,-20,293 295,,2020-03-27,55.7186,37.7817,column triple-span
+295,Yugo-Vostochnaya,15,Юго-Восточная,-20,294 296,,2020-03-27,55.704970,37.819010,column triple-span
+296,Kosino,15,Косино,-27,295 297,143,2019-06-03,55.7033,37.8511,column triple-span
+297,Ulitsa Dmitriyevskogo,15,Улица Дмитриевского,-18,296 298,,2019-06-03,55.7100,37.8792,column double-span
+298,Lukhmanovskaya,15,Лухмановская,-15,297 299,,2019-06-03,55.7085,37.9004,column triple-span
+299,Nekrasovka,15,Некрасовка,-16,298,,2019-06-03,55.7036,37.9264,column double-span
+300,Novatorskaya,16,Новаторская,-11,301,235,2024-09-07,55.6690,37.5238,column triple-span
+301,Universitet Druzhby Narodov,16,Университет Дружбы Народов,-23,300 302,,2024-09-07,55.6484,37.5076,column triple-span
+302,Generala Tyuleneva,16,Генерала Тюленева,-20,301 303,,2024-09-07,55.6262,37.4860,column triple-span
+303,Tyutchevskaya,16,Тютчевская,-12.5,302,,2024-09-07,55.6188,37.4814,column triple-span
