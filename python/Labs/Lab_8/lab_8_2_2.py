@@ -88,10 +88,15 @@ class Agency:
 
     # Методы для работы с квартирами
     def __len__(self):
-        return len(self.apartments)
+        return sum(1 for apt in self.apartments if apt.is_available)
 
     def __getitem__(self, index):
-        return self.apartments[index]
+        """Возвращает квартиру по индексу."""
+        try:
+            return self.apartments[index]
+        except IndexError:
+            print(f"Квартира с индексом {index} не найдена.")
+            return None
 
     def __setitem__(self, index, apartment):
         self.apartments[index] = apartment
@@ -104,11 +109,7 @@ class Agency:
 
     # Новый метод для поиска квартиры по индексу
     def get_apartment_by_index(self, index):
-        try:
-            return self.apartments[index]
-        except IndexError:
-            print(f"Квартира с индексом {index} не найдена.")
-            return None
+        return self[index]
 
 
 def main():
@@ -126,7 +127,8 @@ def main():
         )
     )
     agency.add_apartment(Apartment("Улица 3, дом 3", 1200, 3, 70))
-    agency.add_apartment(Apartment("Улица 4, дом 4", 800, 2, 40))
+    agency.add_apartment(Apartment("Улица 3, дом 4", 700, 2, 40))
+    agency.add_apartment(Apartment("Улица 3, дом 3", 500, 1, 30))
 
     # Создание квартиросъемщиков
     tenants = {}
@@ -137,9 +139,11 @@ def main():
         print("2. Найти квартиры")
         print("3. Арендовать квартиру")
         print("4. Поиск квартиры по индексу")
-        print("5. Выйти")
+        print("5. Показать общее количество доступных квартир")
+        print("6. Вывести информацию о квартире по индексу")
+        print("7. Выйти")
 
-        choice = input("Выберите опцию (1-5): ")
+        choice = input("Выберите опцию (1-7): ")
 
         if choice == "1":
             name = input("Введите ваше имя: ")
@@ -158,8 +162,8 @@ def main():
                 print(f"\nДоступные квартиры для {tenant.name}:")
                 available_apartments = agency.find_apartments(tenant)
                 if available_apartments:
-                    for apt in available_apartments:
-                        print(apt)
+                    for index, apt in enumerate(available_apartments):
+                        print(f"{index}: {apt}")
                 else:
                     print("Нет доступных квартир в пределах вашего бюджета.")
             else:
@@ -173,26 +177,22 @@ def main():
             ).lower()  # Приводим к нижнему регистру
             if name in tenants:
                 tenant = tenants[name]
-                address = (
-                    input("Введите адрес квартиры, которую хотите арендовать: ")
-                    .strip()
-                    .lower()
-                )
+                available_apartments = agency.find_apartments(tenant)
 
-                # Поиск квартиры без учета регистра
-                apartment_to_rent = next(
-                    (
-                        apt
-                        for apt in agency.apartments
-                        if apt.address.lower() == address
-                    ),
-                    None,
-                )
+                if available_apartments:
+                    print("\nДоступные квартиры для аренды:")
+                    for index, apt in enumerate(available_apartments):
+                        print(f"{index}: {apt}")
 
-                if apartment_to_rent:
-                    agency.rent_apartment(tenant, apartment_to_rent)
+                    index_to_rent = int(input("Введите индекс квартиры для аренды: "))
+                    apartment_to_rent = agency.get_apartment_by_index(index_to_rent)
+
+                    if apartment_to_rent and apartment_to_rent.is_available:
+                        agency.rent_apartment(tenant, apartment_to_rent)
+                    else:
+                        print("Квартира недоступна или не найдена.")
                 else:
-                    print("Квартира не найдена.")
+                    print("Нет доступных квартир в пределах вашего бюджета.")
             else:
                 print(
                     "Квартиросъемщик не найден. Пожалуйста, зарегистрируйтесь сначала."
@@ -205,6 +205,16 @@ def main():
                 print(f"Найдена квартира: {apartment}")
 
         elif choice == "5":
+            total_available = len(agency)
+            print(f"Общее количество доступных квартир: {total_available}")
+
+        elif choice == "6":
+            index = int(input("Введите индекс квартиры для вывода информации: "))
+            apartment_info = agency[index]
+            if apartment_info:
+                print(f"Информация о квартире: {apartment_info}")
+
+        elif choice == "7":
             print("Спасибо за использование системы Жилищного Агентства. До свидания!")
             break
 
