@@ -28,5 +28,6 @@ max_value_multiple_occurrences = (
 
 print(f"Количество строк без нулевых элементов: {non_zero_rows_count}")
 print(
-    f"Максимальное значение из чисел, встречающихся более одного раза: {max_value_multiple_occurrences}"
+    "Максимальное значение из чисел, встречающихся более одного раза:"
+    f"{max_value_multiple_occurrences}"
 )
