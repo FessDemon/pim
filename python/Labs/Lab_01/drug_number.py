@@ -16,7 +16,7 @@ for ch in range(1, 100_000):
                     s2 += j
             if s2 == ch != s1:
                 print(s1, ch)
-                f = s1      
+                f = s1
 
-finish =  datetime.datetime.now()
+finish = datetime.datetime.now()
 print(finish - start)

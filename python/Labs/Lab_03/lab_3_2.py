@@ -26,13 +26,18 @@ def findLongestDecreasingSequences(numbers):
 
     return longestSequences, maxLength
 
+
 # Пример использования
 numbers = [9, 7, 5, 6, 4, 3, 2, 1, 8, 7, 9, 7, 5, 3, 2]
 longestSequences, maxLength = findLongestDecreasingSequences(numbers)
 
 # Вывод результатов
-print("Список чисел:", numbers)
-print("Длина самой длинной упорядоченной по убыванию последовательности:", maxLength)
+print(f"Список чисел: {numbers}")
+print(
+    "Длина самой длинной упорядоченной "
+    "по убыванию последовательности: "
+    f"{maxLength}"
+)
 print("Самые длинные последовательности:")
 
 for seq in longestSequences:
