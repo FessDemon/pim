@@ -98,8 +98,10 @@ for key in friends_dict.keys():
 
 f = True  # Идет игра
 while f:
-    friend_name = friends[random.randint(0, len(friends) - 1)]  # Выбор случайного друга
-    category = friends_dict[friend_name]  # словарь категорий загаданного человека
+    # Выбор случайного друга
+    friend_name = friends[random.randint(0, len(friends) - 1)]
+    # словарь категорий загаданного человека
+    category = friends_dict[friend_name]
     set_categories = set()  # Множество категорий
     categories = []  # Массив категорий
     # Формирование множества и массива категорий
@@ -124,7 +126,8 @@ while f:
             print("Ты отгадал!")
             f = False
         else:
-            # иначе (если не отгадал), то удаляем из множества отработанную категрию
+            # иначе (если не отгадал),
+            # то удаляем из множества отработанную категрию
             set_categories.remove(category_name)
     if f:  # Если все категории выведены, но человек не отгадан
         print(f"Увы... Имя загаданного друга: {friend_name}")
