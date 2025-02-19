@@ -12,7 +12,8 @@ DATA_PATH = "data/covid_polymatica.csv"
 
 # Загрузка данных
 if not os.path.exists(DATA_PATH):
-    raise FileNotFoundError("Файл с данными не найден. Убедитесь, что данные находятся в папке 'data'.")
+    raise FileNotFoundError("Файл с данными не найден. Убедитесь,\
+                            что данные находятся в папке 'data'.")
 
 df = pd.read_csv(DATA_PATH)
 df['date'] = pd.to_datetime(df['date'])
@@ -24,7 +25,8 @@ app.layout = html.Div([
     # Выбор региона
     dcc.Dropdown(
         id='region-dropdown',
-        options=[{'label': region, 'value': region} for region in df['region'].unique()],
+        options=[{'label': region, 'value': region}
+                 for region in df['region'].unique()],
         value=df['region'].iloc[0],
         className="dropdown"
     ),
@@ -66,16 +68,22 @@ app.layout = html.Div([
      Input('end-date-picker', 'date')]
 )
 def update_graphs(region, start_date, end_date):
-    filtered_df = df[(df['region'] == region) & 
-                     (df['date'] >= start_date) & 
+    filtered_df = df[(df['region'] == region) &
+                     (df['date'] >= start_date) &
                      (df['date'] <= end_date)]
 
     # График заболевших
-    confirmed_fig = px.line(filtered_df, x='date', y='confirmed', title=f"Количество заболевших в {region}")
+    confirmed_fig = px.line(filtered_df,
+                            x='date',
+                            y='confirmed',
+                            title=f"Количество заболевших в {region}")
     confirmed_fig.update_layout(xaxis_title="Дата", yaxis_title="Заболевшие")
 
     # График смертей
-    deaths_fig = px.line(filtered_df, x='date', y='deaths', title=f"Количество смертей в {region}")
+    deaths_fig = px.line(filtered_df,
+                         x='date',
+                         y='deaths',
+                         title=f"Количество смертей в {region}")
     deaths_fig.update_layout(xaxis_title="Дата", yaxis_title="Смерти")
 
     return confirmed_fig, deaths_fig
