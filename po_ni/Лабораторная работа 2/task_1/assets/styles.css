@@ -1,0 +1,20 @@
+/* Общий стиль для заголовка */
+h1 {
+    text-align: center;
+}
+
+/* Стиль для выпадающего списка */
+#year-dropdown {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/* Общий стиль для графиков */
+.graph-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.graph-container div {
+    width: 49%; /* Чтобы графики занимали половину ширины */
+}
