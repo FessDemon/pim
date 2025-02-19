@@ -80,5 +80,6 @@ def update_graphs(region, start_date, end_date):
 
     return confirmed_fig, deaths_fig
 
+
 if __name__ == '__main__':
     app.run_server(debug=True)
