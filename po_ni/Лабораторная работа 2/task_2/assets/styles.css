@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    width: 300px;
+    margin: 10px auto;
+    display: block;
+}
+
+.datepicker {
+    width: 200px;
+    margin: 10px auto;
+    display: block;
+}
+
+.graph {
+    margin: 20px auto;
+    display: block;
+    max-width: 800px;
+}
