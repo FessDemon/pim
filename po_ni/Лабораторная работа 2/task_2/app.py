@@ -8,7 +8,7 @@ import os
 app = dash.Dash(__name__, external_stylesheets=['styles.css'])
 
 # Путь к данным
-DATA_PATH = "data/covid_polymatica.xlsx"
+DATA_PATH = "po_ni/Лабораторная работа 2/task_2/data/covid_polymatica.xlsx"
 
 # Загрузка данных
 if not os.path.exists(DATA_PATH):
