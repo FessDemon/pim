@@ -38,7 +38,9 @@ app.layout = html.Div([
     html.Label("Выберите регион:", className="label"),
     dcc.Dropdown(
         id='region-dropdown',
-        options=[{'label': region, 'value': region} for region in df['region'].unique()],
+        options=[
+            {'label': region, 'value': region}
+            for region in df['region'].unique()],
         value=df['region'].iloc[0],
         className="dropdown"
     ),
