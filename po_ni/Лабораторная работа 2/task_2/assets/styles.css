@@ -1,23 +1,36 @@
-.title {
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
     text-align: center;
     color: #333;
-    margin-bottom: 20px;
 }
 
-.dropdown {
-    width: 300px;
-    margin: 10px auto;
-    display: block;
+#dropdowns {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
 }
 
-.datepicker {
-    width: 200px;
-    margin: 10px auto;
-    display: block;
+#graphs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .graph {
-    margin: 20px auto;
+    width: 80%;
+    margin: 20px;
+}
+
+.label {
     display: block;
-    max-width: 800px;
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+    color: #555;
 }

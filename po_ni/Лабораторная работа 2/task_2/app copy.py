@@ -12,39 +12,28 @@ DATA_PATH = "data/covid_polymatica.xlsx"
 
 # Загрузка данных
 if not os.path.exists(DATA_PATH):
-    raise FileNotFoundError("Файл с данными не найден. "
-                            "Убедитесь, что данные находятся в папке 'data'.")
+    raise FileNotFoundError("Файл с данными не найден. Убедитесь,\
+                            что данные находятся в папке 'data'.")
 
 df = pd.read_excel(DATA_PATH)
-df = df.rename(columns={'Регион ': 'region',
-                        'Федеральный округ': 'FederalDistrict',
-                        'дата': 'date',
-                        'случаи заболевания': 'casesofdisease',
-                        'население': 'population',
-                        'количество смертей': 'numberofdeaths'})
-# df
-# df.info()
-
-# df['date'] = pd.to_datetime(df['date'])
-# df
-# df.info()
-
+df = df.drop(df.columns[[x for x in range(6, 17)]], axis=1)
+df = df.rename(columns={'Регион ': 'region', 'Федеральный округ': 'FederalDistrict', 'дата': 'date', 'случаи заболевания': 'casesofdisease', 'население': 'population', 'количество смертей': 'numberofdeaths'})
+# print(df.head())
 
 # Разметка приложения
 app.layout = html.Div([
     html.H1("Статистика по COVID-19 в России", className="title"),
 
     # Выбор региона
-    html.Label("Выберите регион:", className="label"),
     dcc.Dropdown(
         id='region-dropdown',
-        options=[{'label': region, 'value': region} for region in df['region'].unique()],
+        options=[{'label': region, 'value': region}
+                 for region in df['region'].unique()],
         value=df['region'].iloc[0],
         className="dropdown"
     ),
 
     # Выбор начальной даты
-    html.Label("Начальная дата:", className="label"),
     dcc.DatePickerSingle(
         id='start-date-picker',
         min_date_allowed=df['date'].min(),
@@ -55,7 +44,6 @@ app.layout = html.Div([
     ),
 
     # Выбор конечной даты
-    html.Label("Конечная дата:", className="label"),
     dcc.DatePickerSingle(
         id='end-date-picker',
         min_date_allowed=df['date'].min(),
