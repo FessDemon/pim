@@ -22,12 +22,6 @@ df = df.rename(columns={'Регион ': 'region',
                         'случаи заболевания': 'casesofdisease',
                         'население': 'population',
                         'количество смертей': 'numberofdeaths'})
-# df
-# df.info()
-
-# df['date'] = pd.to_datetime(df['date'])
-# df
-# df.info()
 
 
 # Разметка приложения
