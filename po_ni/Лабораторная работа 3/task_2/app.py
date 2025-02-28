@@ -7,7 +7,6 @@ import plotly.express as px
 # Инициализация Dash приложения с подключением внешнего CSS
 app = dash.Dash(__name__, external_stylesheets=['/assets/styles.css'])
 
-
 # Функция для получения курсов валют
 def get_exchange_rates(base_currency):
     url = f"https://api.exchangerate-api.com/v4/latest/{base_currency}"
@@ -18,13 +17,11 @@ def get_exchange_rates(base_currency):
     else:
         return None
 
-
 # Создание DataFrame из курсов валют
 def create_dataframe(rates, base_currency):
     df = pd.DataFrame(list(rates.items()), columns=['Currency', 'Rate'])
     df['Base Currency'] = base_currency
     return df
-
 
 # Layout приложения
 app.layout = html.Div([
@@ -40,7 +37,7 @@ app.layout = html.Div([
             {'label': 'RUB', 'value': 'RUB'},
             {'label': 'GBP', 'value': 'GBP'}
         ],
-        value='USD'
+        value='RUB'
     ),
 
     # График курсов валют
@@ -69,11 +66,25 @@ def update_graph(base_currency):
     rates = get_exchange_rates(base_currency)
     if rates:
         df = create_dataframe(rates, base_currency)
-        fig = px.histogram(df, x="Currency", y="Rate", log_y=True, title=f"Курс валют относительно {base_currency}")
+        fig = px.histogram(
+            df,
+            x="Currency",  # Ось X - названия валют
+            y="Rate",      # Ось Y - значения курсов
+            log_y=True,    # Логарифмическая шкала по Y
+            title=f"Курс валют относительно {base_currency}"  # Заголовок графика
+        )
+        
+        # Настройка русских подписей
+        fig.update_layout(
+            xaxis_title="Валюта",  # Подпись оси X
+            yaxis_title="Курс (логарифмическая шкала)",  # Подпись оси Y
+            font=dict(family="Arial", size=14),  # Шрифт для текста
+            title_font=dict(size=20)  # Размер шрифта для заголовка
+        )
+        
         return fig
     else:
         return {}
-
 
 # Callback для конвертации валют
 @app.callback(
@@ -92,7 +103,6 @@ def convert_currency(n_clicks, from_currency, to_currency, amount):
         else:
             return "Ошибка: Не удалось получить данные о курсах валют."
     return ""
-
 
 # Запуск сервера
 if __name__ == '__main__':
