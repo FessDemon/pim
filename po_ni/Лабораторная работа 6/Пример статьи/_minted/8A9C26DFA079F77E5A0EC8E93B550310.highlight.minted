@@ -1,0 +1,30 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+	\PYG{c+c1}{\PYGZsh{} 1. Обучение логистической регрессии}
+	\PYG{n}{logreg} \PYG{o}{=} \PYG{n}{LogisticRegression}\PYG{p}{(}\PYG{n}{max\PYGZus{}iter}\PYG{o}{=}\PYG{l+m+mi}{1000}\PYG{p}{)}
+	\PYG{n}{logreg}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{x\PYGZus{}train}\PYG{p}{,} \PYG{n}{y\PYGZus{}train}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{} 2. Вывод весовых коэффициентов}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Весовые коэффициенты модели:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{(}\PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{feature}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{:} \PYG{n}{x\PYGZus{}train}\PYG{o}{.}\PYG{n}{columns}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{coef}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{:} \PYG{n}{logreg}\PYG{o}{.}\PYG{n}{coef\PYGZus{}}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{} 3. Вывод значений, возвращаемых моделью (степень уверенности)}
+	\PYG{c+c1}{\PYGZsh{} для первых 10 примеров}
+	\PYG{n}{probabilities} \PYG{o}{=} \PYG{n}{logreg}\PYG{o}{.}\PYG{n}{predict\PYGZus{}proba}\PYG{p}{(}\PYG{n}{x\PYGZus{}train}\PYG{p}{[}\PYG{p}{:}\PYG{l+m+mi}{10}\PYG{p}{]}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{Степень уверенности модели для первых 10 примеров:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{probabilities}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{Вероятность выжить для первых 10 примеров:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{probabilities}\PYG{p}{[}\PYG{p}{:}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{} 4. Вывод предсказаний модели и истинных ответов для первых 10 примеров}
+	\PYG{n}{predictions} \PYG{o}{=} \PYG{n}{logreg}\PYG{o}{.}\PYG{n}{predict}\PYG{p}{(}\PYG{n}{x\PYGZus{}train}\PYG{p}{[}\PYG{p}{:}\PYG{l+m+mi}{10}\PYG{p}{]}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{Предсказания модели для первых 10 примеров:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{predictions}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{Истинные ответы для первых 10 примеров:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{y\PYGZus{}train}\PYG{p}{[}\PYG{p}{:}\PYG{l+m+mi}{10}\PYG{p}{]}\PYG{o}{.}\PYG{n}{values}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{} Совместный вывод}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{Предсказания и истинные ответы для первых 10 примеров:}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+	\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{)}\PYG{p}{:}
+		\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Пример }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{i}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{: Предсказание = }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{predictions}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{,}
+			 \PYG{n}{Истинный} \PYG{n}{ответ} \PYG{o}{=} \PYG{p}{\PYGZob{}}\PYG{n}{y\PYGZus{}train}\PYG{o}{.}\PYG{n}{values}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{p}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{)}
+\end{MintedVerbatim}
