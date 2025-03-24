@@ -1,0 +1,10 @@
+\babel@toc {russian}{}\relax 
+\beamer@sectionintoc {1}{Поочередное появление объектов}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Команда pause}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{Более сложно}{3}{0}{1}
+\beamer@sectionintoc {2}{Об оформлении}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Презентация в целом}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{На слайде}{6}{0}{2}
+\beamer@sectionintoc {3}{Формулы}{8}{0}{3}
+\beamer@sectionintoc {4}{Большой текст}{9}{0}{4}
+\beamer@sectionintoc {5}{<<Лекции>>}{10}{0}{5}
