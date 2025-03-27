@@ -1,4 +1,4 @@
-,PassengerId,Pclass,Age,SibSp,Parch,Fare,Pclass_1,Pclass_2,Pclass_3,Sex_female,Sex_male,Age_categories_Missing,Age_categories_Infant,Age_categories_Child,Age_categories_Teenager,Age_categories_Young_Adult,Age_categories_Adult,Age_categories_Senior,Survival
+,PassengerId,Pclass,Age,SibSp,Parch,Fare,Pclass_1,Pclass_2,Pclass_3,Sex_female,Sex_male,Age_categories_Missing,Age_categories_Infant,Age_categories_Child,Age_categories_Teenager,Age_categories_Young_Adult,Age_categories_Adult,Age_categories_Senior,Survived
 0,1,3,22.0,1,0,7.25,0,0,1,0,1,0,0,0,0,1,0,0,0
 1,2,1,38.0,1,0,71.2833,1,0,0,1,0,0,0,0,0,0,1,0,1
 2,3,3,26.0,0,0,7.925,0,0,1,1,0,0,0,0,0,1,0,0,1
