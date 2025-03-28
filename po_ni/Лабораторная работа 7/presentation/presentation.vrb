@@ -1,0 +1,16 @@
+\frametitle{Пример кода на Python}
+\begin{minted}[linenos, fontsize=\small]{python}
+			import numpy as np
+			from sklearn.linear_model import LogisticRegression
+			
+			# Данные
+			X = np.array([[1, 2], [2, 3], [3, 4]])
+			y = np.array([0, 0, 1])
+			
+			# Обучение модели
+			model = LogisticRegression()
+			model.fit(X, y)
+			
+			# Предсказание
+			print(model.predict([[4, 5]]))
+		\end{minted}

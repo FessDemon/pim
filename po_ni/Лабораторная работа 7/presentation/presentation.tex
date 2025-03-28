@@ -1,0 +1,161 @@
+%\documentclass[aspectratio=169]{beamer}
+\documentclass[aspectratio=169, handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{pgfplots}
+\usepackage{minted}
+\usepackage{graphicx}
+
+% Тема презентации
+\usetheme{Madrid}
+\definecolor{myblue}{RGB}{0, 102, 204}
+\setbeamercolor{structure}{fg=myblue}
+
+% Настройка pgfplots
+\pgfplotsset{compat=1.18}
+
+\title{Логистическая регрессия}
+\author{Автор: Дмитрий Бояринцев}
+\date{\today}
+
+\begin{document}
+	
+	% Титульный слайд
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	% Введение
+	\begin{frame}{Введение}
+		\begin{block}{Что такое логистическая регрессия?}
+			Логистическая регрессия — это статистический метод анализа данных, используемый для предсказания вероятности принадлежности объекта к одному из классов.
+		\end{block}
+		\pause
+		\begin{itemize}
+			\item Применяется для задач бинарной классификации.
+			\pause
+			\item Основана на логистической функции (сигмоиде).
+			\pause
+			\item Является частным случаем обобщенной линейной модели.
+		\end{itemize}
+	\end{frame}
+	
+	% Математическая модель
+	\begin{frame}{Математическая модель}
+		Логистическая регрессия моделирует вероятность $ P(y=1 | \mathbf{x}) $ как:
+		\[
+		P(y=1 | \mathbf{x}) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \dots + \beta_n x_n)}}
+		\]
+		\pause
+		Где:
+		\begin{itemize}
+			\item $ \beta_0, \beta_1, \dots, \beta_n $ — параметры модели.
+			\item $ x_1, x_2, \dots, x_n $ — признаки объекта.
+		\end{itemize}
+	\end{frame}
+	
+	% График сигмоиды
+	\begin{frame}{График сигмоиды}
+		\begin{center}
+			\begin{tikzpicture}
+				\begin{axis}[
+					xlabel={$x$},
+					ylabel={$P(y=1)$},
+					xmin=-6, xmax=6,
+					ymin=0, ymax=1.1,
+					domain=-6:6,
+					samples=100,
+					grid=both,
+					width=0.8\textwidth,
+					height=0.5\textwidth
+					]
+					\addplot[blue, thick] {1 / (1 + exp(-x))};
+				\end{axis}
+			\end{tikzpicture}
+		\end{center}
+	\end{frame}
+	
+	% График из CSV
+	\begin{frame}{График на основе данных из CSV}
+		\begin{center}
+			\begin{tikzpicture}
+				\begin{axis}[
+					xlabel={Признак},
+					ylabel={Целевая переменная},
+					legend pos=north west,
+					width=0.8\textwidth,
+					height=0.5\textwidth
+					]
+					\addplot table[x=x, y=y, col sep=comma] {data.csv};
+					\legend{Данные}
+				\end{axis}
+			\end{tikzpicture}
+		\end{center}
+	\end{frame}
+	
+	% Алгоритм обучения
+	\begin{frame}[fragile]{Алгоритм обучения}
+		\begin{block}{Шаги обучения логистической регрессии}
+			\begin{enumerate}
+				\item<1-> Инициализация параметров $ \beta $.
+				\item<2-> Вычисление предсказаний с использованием сигмоиды.
+				\item<3-> Обновление параметров с помощью градиентного спуска.
+			\end{enumerate}
+		\end{block}
+	\end{frame}
+	
+	% Листинг кода
+	\begin{frame}[fragile]{Пример кода на Python}
+		\begin{minted}[linenos, fontsize=\small]{python}
+			import numpy as np
+			from sklearn.linear_model import LogisticRegression
+			
+			# Данные
+			X = np.array([[1, 2], [2, 3], [3, 4]])
+			y = np.array([0, 0, 1])
+			
+			# Обучение модели
+			model = LogisticRegression()
+			model.fit(X, y)
+			
+			# Предсказание
+			print(model.predict([[4, 5]]))
+		\end{minted}
+	\end{frame}
+	
+	% Преимущества и недостатки
+	\begin{frame}{Преимущества и недостатки}
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\begin{block}{Преимущества}
+					\begin{itemize}
+						\item Простота реализации.
+						\item Интерпретируемость результатов.
+					\end{itemize}
+				\end{block}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\begin{block}{Недостатки}
+					\begin{itemize}
+						\item Чувствительность к выбросам.
+						\item Не подходит для многоклассовой классификации без модификаций.
+					\end{itemize}
+				\end{block}
+			\end{column}
+		\end{columns}
+	\end{frame}
+	
+	% Заключение
+	\begin{frame}{Заключение}
+		Логистическая регрессия — это мощный инструмент для решения задач бинарной классификации. Она проста в реализации и интерпретации, но имеет ограничения, которые необходимо учитывать при выборе модели.
+	\end{frame}
+	
+	% Спасибо за внимание
+	\begin{frame}{Спасибо за внимание!}
+		\begin{center}
+			\Huge Спасибо за внимание!
+		\end{center}
+	\end{frame}
+	
+\end{document}

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Arch Linux) (preloaded format=pdflatex 2025.3.15)  21 MAR 2025 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.24)  28 MAR 2025 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**beamer.tex
-(./beamer.tex
+**presentation.tex
+(./presentation.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
@@ -658,18 +658,10 @@ Package: amsthm 2020/05/29 v2.20.6
 \beamer@dimb=\dimen294
 )
 (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/usr/share/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty
-(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
-(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
-(/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
-(/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
-(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty)
-(/usr/share/texmf-dist/tex/latex/cmap/cmap.sty
-Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
-)
-(/usr/share/texmf-dist/tex/latex/t2/mathtext.sty
-Package: mathtext 2018/04/14 v1.0 transparent text-and-math defs
-LaTeX Info: Redefining \halign on input line 121.
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks46
+\inpenc@posthook=\toks47
 )
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -879,20 +871,13 @@ File: t2aenc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+FB04 (decimal 64260)
    defining Unicode char U+FB05 (decimal 64261)
    defining Unicode char U+FB06 (decimal 64262)
-)
-\symT2Aletters=\mathgroup6
-)
+))
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
 116.
 
 (/usr/share/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)<<t2a.cmap>>)
-(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks46
-\inpenc@posthook=\toks47
-)
+))
 (/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
 eX and XeLaTeX
@@ -905,19 +890,6 @@ eX and XeLaTeX
 LaTeX Info: Redefining \textlatin on input line 3835.
 \bbl@dirlevel=\count346
 
-(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'british' set to \l@english
-(babel)             (\language0). Reported on input line 82.
-Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
-(babel)             (\language0). Reported on input line 83.
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@english
-(babel)             (\language0). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@english
-(babel)             (\language0). Reported on input line 108.
-)
 (/usr/share/texmf-dist/tex/generic/babel-russian/russianb.ldf
 File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
 Language: russian 2020/09/09 1.3k Russian support for the Babel system
@@ -928,274 +900,25 @@ Package babel Info: Default for \cyrdash is provided on input line 163.
 Package babel Info: Importing font and identification data for russian
 (babel)             from babel-ru.ini. Reported on input line 11.
 )
-(/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 11.
-)
-\c@rtheorem=\count347
-\c@rproof=\count348
-\c@rexample=\count349
+(/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
-(/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
-
-(/usr/share/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count350
-\calc@Bcount=\count351
-\calc@Adimen=\dimen296
-\calc@Bdimen=\dimen297
-\calc@Askip=\skip66
-\calc@Bskip=\skip67
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count352
-\calc@Cskip=\skip68
-)
-(/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
-)
-\g_MT_multlinerow_int=\count353
-\l_MT_multwidth_dim=\dimen298
-\origjot=\skip69
-\l_MT_shortvdotswithinadjustabove_dim=\dimen299
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen300
-\l_MT_above_intertext_sep=\dimen301
-\l_MT_below_intertext_sep=\dimen302
-\l_MT_above_shortintertext_sep=\dimen303
-\l_MT_below_shortintertext_sep=\dimen304
-\xmathstrut@box=\box77
-\xmathstrut@dim=\dimen305
-)
-(/usr/share/texmf-dist/tex/latex/was/icomma.sty
-Package: icomma 2002/03/10 v2.0 (WaS)
-)
-(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen306
-\WF@size=\dimen307
-\c@WF@wrappedlines=\count354
-\WF@box=\box78
-\WF@everypar=\toks48
-Package: wrapfig 2003/01/31  v 3.6
-)
-(/usr/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen308
-\ar@mcellbox=\box79
-\extrarowheight=\dimen309
-\NC@list=\toks49
-\extratabsurround=\skip70
-\backup@length=\skip71
-\ar@cellbox=\box80
-)
-(/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen310
-\TX@old@table=\dimen311
-\TX@old@col=\dimen312
-\TX@target=\dimen313
-\TX@delta=\dimen314
-\TX@cols=\count355
-\TX@ftn=\toks50
-)
-(/usr/share/texmf-dist/tex/latex/tabulary/tabulary.sty
-Package: tabulary 2024/06/04 v0.11 tabulary package (DPC)
-\TY@count=\count356
-\TY@linewidth=\dimen315
-\tymin=\dimen316
-\tymax=\dimen317
-\TY@tablewidth=\dimen318
-)
-(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen319
-\lightrulewidth=\dimen320
-\cmidrulewidth=\dimen321
-\belowrulesep=\dimen322
-\belowbottomsep=\dimen323
-\aboverulesep=\dimen324
-\abovetopsep=\dimen325
-\cmidrulesep=\dimen326
-\cmidrulekern=\dimen327
-\defaultaddspace=\dimen328
-\@cmidla=\count357
-\@cmidlb=\count358
-\@aboverulesep=\dimen329
-\@belowrulesep=\dimen330
-\@thisruleclass=\count359
-\@lastruleclass=\count360
-\@thisrulewidth=\dimen331
-)
-(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
-\LTleft=\skip72
-\LTright=\skip73
-\LTpre=\skip74
-\LTpost=\skip75
-\LTchunksize=\count361
-\LTcapwidth=\dimen332
-\LT@head=\box81
-\LT@firsthead=\box82
-\LT@foot=\box83
-\LT@lastfoot=\box84
-\LT@gbox=\box85
-\LT@cols=\count362
-\LT@rows=\count363
-\c@LT@tables=\count364
-\c@LT@chunks=\count365
-\LT@p@ftn=\toks51
-)
-(/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip76
-\multirow@cntb=\count366
-\multirow@dima=\skip77
-\bigstrutjot=\dimen333
-)
-(/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2025/01/27 v2.1e lastpage: 2.09 or 2e? (HMM)
-
-(/usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-Package: lastpage2e 2025/01/27 v2.1e Decide which 2e lastpage version to use (H
-MM)
-
-(/usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
-Package: lastpagemodern 2025-01-27 v2.1e Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count367
-) 
-)) (/usr/share/texmf-dist/tex/generic/soul/soul.sty
-Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
-
-(/usr/share/texmf-dist/tex/generic/soul/soul-ori.sty
-Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
-\SOUL@word=\toks52
-\SOUL@lasttoken=\toks53
-\SOUL@syllable=\toks54
-\SOUL@cmds=\toks55
-\SOUL@buffer=\toks56
-\SOUL@token=\toks57
-\SOUL@syllgoal=\dimen334
-\SOUL@syllwidth=\dimen335
-\SOUL@charkern=\dimen336
-\SOUL@hyphkern=\dimen337
-\SOUL@dimen=\dimen338
-\SOUL@dimeni=\dimen339
-\SOUL@minus=\count368
-\SOUL@comma=\count369
-\SOUL@apo=\count370
-\SOUL@grave=\count371
-\SOUL@spaceskip=\skip78
-\SOUL@ttwidth=\dimen340
-\SOUL@uldp=\dimen341
-\SOUL@ulht=\dimen342
-)
-(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-))
-(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count372
-\csq@gtype=\count373
-\csq@glevel=\count374
-\csq@qlevel=\count375
-\csq@maxlvl=\count376
-\csq@tshold=\count377
-\csq@ltx@everypar=\toks58
-
-(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
-)
-Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Package csquotes Info: ... configuration file loaded successfully.
-
-(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
-File: csquotes.cfg 
-))
-(/usr/share/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
-\c@tracingmulticols=\count378
-\mult@box=\box86
-\multicol@leftmargin=\dimen343
-\c@unbalance=\count379
-\c@collectmore=\count380
-\doublecol@number=\count381
-\multicoltolerance=\count382
-\multicolpretolerance=\count383
-\full@width=\dimen344
-\page@free=\dimen345
-\premulticols=\dimen346
-\postmulticols=\dimen347
-\multicolsep=\skip79
-\multicolbaselineskip=\skip80
-\partial@page=\box87
-\last@line=\box88
-\mc@boxedresult=\box89
-\maxbalancingoverflow=\dimen348
-\mult@rightbox=\box90
-\mult@grightbox=\box91
-\mult@firstbox=\box92
-\mult@gfirstbox=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
-\@tempa=\box104
-\@tempa=\box105
-\@tempa=\box106
-\@tempa=\box107
-\@tempa=\box108
-\@tempa=\box109
-\@tempa=\box110
-\@tempa=\box111
-\@tempa=\box112
-\@tempa=\box113
-\@tempa=\box114
-\@tempa=\box115
-\@tempa=\box116
-\@tempa=\box117
-\@tempa=\box118
-\@tempa=\box119
-\@tempa=\box120
-\@tempa=\box121
-\@tempa=\box122
-\@tempa=\box123
-\@tempa=\box124
-\@tempa=\box125
-\@tempa=\box126
-\@tempa=\box127
-\@tempa=\box128
-\@tempa=\box129
-\c@minrows=\count384
-\c@columnbadness=\count385
-\c@finalcolumnbadness=\count386
-\last@try=\dimen349
-\multicolovershoot=\dimen350
-\multicolundershoot=\dimen351
-\mult@nat@firstbox=\box130
-\colbreak@box=\box131
-\mc@col@check@num=\count387
-)
 (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box132
+\pgfnodeparttextbox=\box77
 )
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen352
-\pgf@nodesepend=\dimen353
+\pgf@nodesepstart=\dimen296
+\pgf@nodesepend=\dimen297
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
@@ -1203,10 +926,10 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen354
-\pgffor@skip=\dimen355
-\pgffor@stack=\toks59
-\pgffor@toks=\toks60
+\pgffor@iter=\dimen298
+\pgffor@skip=\dimen299
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -1214,48 +937,45 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count388
-\pgfplotmarksize=\dimen356
+\pgf@plot@mark@count=\count347
+\pgfplotmarksize=\dimen300
 )
-\tikz@lastx=\dimen357
-\tikz@lasty=\dimen358
-\tikz@lastxsaved=\dimen359
-\tikz@lastysaved=\dimen360
-\tikz@lastmovetox=\dimen361
-\tikz@lastmovetoy=\dimen362
-\tikzleveldistance=\dimen363
-\tikzsiblingdistance=\dimen364
-\tikz@figbox=\box133
-\tikz@figbox@bg=\box134
-\tikz@tempbox=\box135
-\tikz@tempbox@bg=\box136
-\tikztreelevel=\count389
-\tikznumberofchildren=\count390
-\tikznumberofcurrentchild=\count391
-\tikz@fig@count=\count392
+\tikz@lastx=\dimen301
+\tikz@lasty=\dimen302
+\tikz@lastxsaved=\dimen303
+\tikz@lastysaved=\dimen304
+\tikz@lastmovetox=\dimen305
+\tikz@lastmovetoy=\dimen306
+\tikzleveldistance=\dimen307
+\tikzsiblingdistance=\dimen308
+\tikz@figbox=\box78
+\tikz@figbox@bg=\box79
+\tikz@tempbox=\box80
+\tikz@tempbox@bg=\box81
+\tikztreelevel=\count348
+\tikznumberofchildren=\count349
+\tikznumberofcurrentchild=\count350
+\tikz@fig@count=\count351
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count393
-\pgfmatrixcurrentcolumn=\count394
-\pgf@matrix@numberofcolumns=\count395
+\pgfmatrixcurrentrow=\count352
+\pgfmatrixcurrentcolumn=\count353
+\pgf@matrix@numberofcolumns=\count354
 )
-\tikz@expandcount=\count396
+\tikz@expandcount=\count355
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
-
+)))
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks61
-\t@pgfplots@tokb=\toks62
-\t@pgfplots@tokc=\toks63
-\pgfplots@tmpa=\dimen365
-\c@pgfplots@coordindex=\count397
-\c@pgfplots@scanlineindex=\count398
+\t@pgfplots@toka=\toks50
+\t@pgfplots@tokb=\toks51
+\t@pgfplots@tokc=\toks52
+\pgfplots@tmpa=\dimen309
+\c@pgfplots@coordindex=\count356
+\c@pgfplots@scanlineindex=\count357
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
@@ -1263,9 +983,9 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 oader.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks64
-\t@pgf@tokb=\toks65
-\t@pgf@tokc=\toks66
+\t@pgf@toka=\toks53
+\t@pgf@tokb=\toks54
+\t@pgf@tokc=\toks55
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_p
 gfutil-common-lists.tex))
@@ -1276,14 +996,14 @@ gfutil-common-lists.tex))
 ext.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.te
 x
-\c@pgfplotsarray@tmp=\count399
+\c@pgfplotsarray@tmp=\count358
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.t
 ex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.t
 ex
-\c@pgfplotstable@counta=\count400
-\t@pgfplotstable@a=\toks67
+\c@pgfplotstable@counta=\count359
+\t@pgfplotstable@a=\toks56
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.te
 x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
@@ -1291,7 +1011,7 @@ x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
 (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading
 .code.tex
-\c@pgfplotslibrarysurf@no=\count401
+\c@pgfplotslibrarysurf@no=\count360
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
 pgfsys-pdftex.def)))
@@ -1310,16 +1030,16 @@ pgfsys-pdftex.def)))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen366
-\pgfdecoratedremainingdistance=\dimen367
-\pgfdecoratedinputsegmentcompleteddistance=\dimen368
-\pgfdecoratedinputsegmentremainingdistance=\dimen369
-\pgf@decorate@distancetomove=\dimen370
-\pgf@decorate@repeatstate=\count402
-\pgfdecorationsegmentamplitude=\dimen371
-\pgfdecorationsegmentlength=\dimen372
+\pgfdecoratedcompleteddistance=\dimen310
+\pgfdecoratedremainingdistance=\dimen311
+\pgfdecoratedinputsegmentcompleteddistance=\dimen312
+\pgfdecoratedinputsegmentremainingdistance=\dimen313
+\pgf@decorate@distancetomove=\dimen314
+\pgf@decorate@repeatstate=\count361
+\pgfdecorationsegmentamplitude=\dimen315
+\pgfdecorationsegmentlength=\dimen316
 )
-\tikz@lib@dec@box=\box137
+\tikz@lib@dec@box=\box82
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.pathmorphing.code.tex
@@ -1331,13 +1051,13 @@ decorations.pathreplacing.code.tex
 ons.pathreplacing.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua
 .code.tex)
-\pgfplots@numplots=\count403
-\pgfplots@xmin@reg=\dimen373
-\pgfplots@xmax@reg=\dimen374
-\pgfplots@ymin@reg=\dimen375
-\pgfplots@ymax@reg=\dimen376
-\pgfplots@zmin@reg=\dimen377
-\pgfplots@zmax@reg=\dimen378
+\pgfplots@numplots=\count362
+\pgfplots@xmin@reg=\dimen317
+\pgfplots@xmax@reg=\dimen318
+\pgfplots@ymin@reg=\dimen319
+\pgfplots@ymax@reg=\dimen320
+\pgfplots@zmin@reg=\dimen321
+\pgfplots@zmax@reg=\dimen322
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 plotmarks.code.tex
@@ -1345,51 +1065,144 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplotstable 2021/05/15 v1.18.1 Table typesetting and Pretty-printing
- (1.18.1)
+))) (/usr/share/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2025/03/06 v3.6.0 Yet another Pygments shim for LaTeX
 
-(/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code.tex
-(/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.coltype.code
-.tex)))
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... found 'babel' package.
-Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'russian'.
- (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count404
-\l__pdf_internal_box=\box138
+(/usr/share/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(/usr/share/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2025/03/04 v1.12.0 fvextra - extensions and patches for fancyv
+rb
+
+(/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count363
+\FV@InFile=\read4
+\FV@TabBox=\box83
+\c@FancyVerbLine=\count364
+\FV@StepNumber=\count365
+\FV@OutFile=\write5
 )
-(./beamer.aux)
-\openout1 = `beamer.aux'.
+(/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 80.
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 8
-0.
+(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+))
+(/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2025/01/29 line numbers on paragraphs v5.4
+\linenopenalty=\count366
+\output=\toks57
+\linenoprevgraf=\count367
+\linenumbersep=\dimen323
+\linenumberwidth=\dimen324
+\c@linenumber=\count368
+\c@pagewiselinenumber=\count369
+\c@LN@truepage=\count370
+\c@internallinenumber=\count371
+\c@internallinenumbers=\count372
+\quotelinenumbersep=\dimen325
+\bframerule=\dimen326
+\bframesep=\dimen327
+\bframebox=\box84
+\@LN@amsmath@ams@eqpen=\count373
+LaTeX Info: Redefining \\ on input line 3187.
+)
+\c@FancyVerbWriteLine=\count374
+\c@FancyVerbBufferLine=\count375
+\c@FV@TrueTabGroupLevel=\count376
+\c@FV@TrueTabCounter=\count377
+\FV@TabBox@Group=\box85
+\FV@bgcolorstructbox=\box86
+\FV@TmpLength=\skip66
+\c@FV@HighlightLinesStart=\count378
+\c@FV@HighlightLinesStop=\count379
+\FV@LoopCount=\count380
+\FV@NCharsBox=\box87
+\FV@BreakIndent=\dimen328
+\FV@BreakIndentNChars=\count381
+\FV@BreakSymbolSepLeft=\dimen329
+\FV@BreakSymbolSepLeftNChars=\count382
+\FV@BreakSymbolSepRight=\dimen330
+\FV@BreakSymbolSepRightNChars=\count383
+\FV@BreakSymbolIndentLeft=\dimen331
+\FV@BreakSymbolIndentLeftNChars=\count384
+\FV@BreakSymbolIndentRight=\dimen332
+\FV@BreakSymbolIndentRightNChars=\count385
+\c@FancyVerbLineBreakLast=\count386
+\FV@LineBox=\box88
+\FV@LineIndentBox=\box89
+\c@FV@BreakBufferDepth=\count387
+\FV@LineWidth=\dimen333
+)
+(/usr/share/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
+Package: latex2pydata 2025/03/03 v0.5.0 latex2pydata - write data to file in Py
+thon literal format
+)
+(/usr/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks58
+\pgfopts@list@add@b@toks=\toks59
+)
+(/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count388
+\float@exts=\toks60
+\float@box=\box90
+\@float@everytoks=\toks61
+\@floatcapt=\box91
+)
+\c@minted@FancyVerbLineTemp=\count389
+\@float@every@listing=\toks62
+\c@listing=\count390
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty
+(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count391
+\l__pdf_internal_box=\box92
+)
+(./presentation.aux)
+\openout1 = `presentation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 22.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
+2.
  (/usr/share/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    ... okay on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1399,14 +1212,14 @@ LaTeX Font Info:    ... okay on input line 80.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.95003pt, 433.34402pt, 10.95003pt)
+* h-part:(L,W,R)=(10.88002pt, 433.48404pt, 10.88002pt)
 * v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
 * \paperwidth=455.24408pt
 * \paperheight=256.0748pt
-* \textwidth=433.34402pt
+* \textwidth=433.48404pt
 * \textheight=227.62207pt
-* \oddsidemargin=-61.31996pt
-* \evensidemargin=-61.31996pt
+* \oddsidemargin=-61.38997pt
+* \evensidemargin=-61.38997pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1427,17 +1240,17 @@ LaTeX Font Info:    ... okay on input line 80.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count405
-\scratchdimen=\dimen379
-\scratchbox=\box139
-\nofMPsegments=\count406
-\nofMParguments=\count407
-\everyMPshowfont=\toks68
-\MPscratchCnt=\count408
-\MPscratchDim=\dimen380
-\MPnumerator=\count409
-\makeMPintoPDFobject=\count410
-\everyMPtoPDFconversion=\toks69
+\scratchcounter=\count392
+\scratchdimen=\dimen334
+\scratchbox=\box93
+\nofMPsegments=\count393
+\nofMParguments=\count394
+\everyMPshowfont=\toks63
+\MPscratchCnt=\count395
+\MPscratchDim=\dimen335
+\MPnumerator=\count396
+\makeMPintoPDFobject=\count397
+\everyMPtoPDFconversion=\toks64
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1447,54 +1260,54 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 80.
- (./beamer.out)
-(./beamer.out)
-\@outlinefile=\write5
-\openout5 = `beamer.out'.
+Package hyperref Info: Link coloring OFF on input line 22.
+
+(./presentation.out) (./presentation.out)
+\@outlinefile=\write6
+\openout6 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 80.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 80.
-\symnumbers=\mathgroup7
-\sympureletters=\mathgroup8
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 22.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 80.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 80.
+(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 80.
+(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 80.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 80.
+(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 80.
+(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 80.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 80.
+(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 80.
+(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 80.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 80.
+(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 80.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 80.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 80.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 80.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T2A/cmr/b/n on input line 80.
+(Font)                  OT1/cmss/b/n --> T2A/cmr/b/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T2A/cmss/b/n --> T2A/cmss/b/n on input line 80.
+(Font)                  T2A/cmss/b/n --> T2A/cmss/b/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 80.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 80.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T2A/cmtt/m/n --> T2A/cmtt/b/n on input line 80.
+(Font)                  T2A/cmtt/m/n --> T2A/cmtt/b/n on input line 22.
 
 (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English
 .dict
@@ -1520,234 +1333,109 @@ Dictionary: translator-numbers-dictionary, Language: English
 sh.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \th on input line 80.
+LaTeX Info: Redefining \th on input line 22.
 
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
-ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
-your preamble.
- on input line 80.
-
-(./beamer.nav)
-Overfull \hbox (315.5052pt too wide) in paragraph at lines 80--80
- [][][][]  
- []
-
-
-Overfull \hbox (315.5052pt too wide) in paragraph at lines 82--82
- [][][][]  
- []
-
-
+(./presentation.nav)
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
 /enc/dvips/cm-super/cm-super-t2a.enc}]
-Overfull \hbox (315.5052pt too wide) in paragraph at lines 97--97
- [][][][]  
- []
-
-
-
-<images/logo.png, id=79, 376.40625pt x 376.40625pt>
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 97.
-(pdftex.def)             Requested size: 28.4475pt x 28.4475pt.
-
-Overfull \hbox (315.5052pt too wide) has occurred while \output is active
- [][][][]  
- []
 
 [2
 
- <./images/logo.png>]
-Overfull \hbox (315.5052pt too wide) in paragraph at lines 115--115
- [][][][]  
- []
-
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 115.
-(pdftex.def)             Requested size: 28.4475pt x 28.4475pt.
-
-
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 115.
-(pdftex.def)             Requested size: 28.4475pt x 28.4475pt.
-
-Overfull \hbox (315.5052pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[3
-
 ]
-Overfull \hbox (315.5052pt too wide) in paragraph at lines 123--123
- [][][][]  
- []
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
 
-
-
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 123.
-(pdftex.def)             Requested size: 28.4475pt x 28.4475pt.
-
-Overfull \hbox (315.5052pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[4
-
-]
-Overfull \hbox (315.5052pt too wide) in paragraph at lines 138--138
- [][][][]  
- []
-
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-138.
-(/usr/share/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 138.
-(pdftex.def)             Requested size: 28.4475pt x 28.4475pt.
-
-Overfull \hbox (315.5052pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[5
-
-]
-Overfull \hbox (315.5052pt too wide) in paragraph at lines 154--154
- [][][][]  
- []
-
-
-
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 154.
-(pdftex.def)             Requested size: 28.4475pt x 28.4475pt.
-
-Overfull \hbox (315.5052pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[6
-
-]
-Overfull \hbox (315.5052pt too wide) in paragraph at lines 168--168
- [][][][]  
- []
-
-
-
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 168.
-(pdftex.def)             Requested size: 28.4475pt x 28.4475pt.
-
-Overfull \hbox (315.5052pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[7
-
-]
-Overfull \hbox (315.5052pt too wide) in paragraph at lines 179--179
- [][][][]  
- []
-
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 179
-.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 179
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
+
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 179.
+LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
+(Font)              using `T2A/cmss/m/n' instead on input line 56.
 
 
 
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 179.
-(pdftex.def)             Requested size: 28.4475pt x 28.4475pt.
+[3
 
-Overfull \hbox (315.5052pt too wide) has occurred while \output is active
- [][][][]  
- []
+]
+
+[4
+
+]
+PGFPlots: reading {data.csv}
+
+
+[5
+
+]
+\openout4 = `presentation.vrb'.
+
+ (./presentation.vrb)
+
+[6
+
+]
+\openout4 = `presentation.vrb'.
+
+ (./presentation.vrb
+\pydata@fh@_2486923A98E77FD0740381D01ACD1782.data.minted=\write7
+\openout7 = `_2486923A98E77FD0740381D01ACD1782.data.minted'.
+
+runsystem(latexminted config  --timestamp 20250328172146 2486923A98E77FD0740381
+D01ACD1782)...executed safely (allowed).
+
+ (./_2486923A98E77FD0740381D01ACD1782.config.minted)
+runsystem(latexminted cleanconfig  --timestamp 20250328172146 2486923A98E77FD07
+40381D01ACD1782)...executed safely (allowed).
+
+
+(./_minted/default.style.minted)
+(./_minted/465C22A62150CE8059F3E79B891EF1F3.highlight.minted
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+1.
+
+(/usr/share/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 2.
+))
+
+[7
+
+]
 
 [8
 
 ]
-Overfull \hbox (315.5052pt too wide) in paragraph at lines 188--188
- [][][][]  
- []
-
-
-
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 188.
-(pdftex.def)             Requested size: 28.4475pt x 28.4475pt.
-
-Overfull \hbox (315.5052pt too wide) has occurred while \output is active
- [][][][]  
- []
 
 [9
 
 ]
-Overfull \hbox (315.5052pt too wide) in paragraph at lines 197--197
- [][][][]  
- []
-
-
-
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 197.
-(pdftex.def)             Requested size: 28.4475pt x 28.4475pt.
-
-Overfull \hbox (315.5052pt too wide) has occurred while \output is active
- [][][][]  
- []
 
 [10
 
 ]
-Overfull \hbox (315.5052pt too wide) in paragraph at lines 204--204
- [][][][]  
- []
+\tf@nav=\write8
+\openout8 = `presentation.nav'.
 
-\tf@nav=\write6
-\openout6 = `beamer.nav'.
+\tf@toc=\write9
+\openout9 = `presentation.toc'.
 
-\tf@toc=\write7
-\openout7 = `beamer.toc'.
+\tf@snm=\write10
+\openout10 = `presentation.snm'.
 
-\tf@snm=\write8
-\openout8 = `beamer.snm'.
-
-
-enddocument/afterlastpage (AED): lastpage setting LastPage.
-(./beamer.aux)
+ (./presentation.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1756,32 +1444,40 @@ L3 programming layer <2025-01-18>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `beamer.out' has not changed.
-(rerunfilecheck)             Checksum: FAB6D195F2630A12DFA6E318EF968945;1424.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 40033 strings out of 474645
- 926486 string characters out of 5759201
- 1432018 words of memory out of 5000000
- 62229 multiletter control sequences out of 15000+600000
- 576036 words of font info for 71 fonts, out of 8000000 for 9000
+ 41188 strings out of 474645
+ 984787 string characters out of 5759193
+ 1557802 words of memory out of 5000000
+ 63455 multiletter control sequences out of 15000+600000
+ 575207 words of font info for 70 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 101i,15n,107p,1814b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfs
-i1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr
-/share/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf-di
-st/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf-dist/fonts/type1/
-public/cm-super/sfss1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super
-/sfss1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><
-/usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texm
-f-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on beamer.pdf (10 pages, 421303 bytes).
+ 101i,18n,107p,727b,2273s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Navigation16} has been referenced but does not exis
+t, replaced by a fixed one
+
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/cm-super/sfit1000.pfb></usr/share/texmf-dist/
+fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/cm-super/sfsi0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
+si0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></us
+r/share/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf-d
+ist/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf-dist/fonts/type1
+/public/cm-super/sfss1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
+r/sfss1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb>
+</usr/share/texmf-dist/fonts/type1/public/cm-super/sfss2488.pfb></usr/share/tex
+mf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on presentation.pdf (10 pages, 225671 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 392 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
