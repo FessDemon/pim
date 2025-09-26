@@ -1,0 +1,161 @@
+{
+  "замок": {
+    "normal_form": "замок",
+    "part_of_speech": "S",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "замок",
+        1
+      ],
+      [
+        "Замок",
+        1
+      ],
+      [
+        "замке",
+        1
+      ]
+    ]
+  },
+  "река": {
+    "normal_form": "река",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "реке",
+        1
+      ],
+      [
+        "рекой",
+        1
+      ]
+    ]
+  },
+  "косой": {
+    "normal_form": "косой",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Косой",
+        1
+      ],
+      [
+        "косой",
+        1
+      ]
+    ]
+  },
+  "в": {
+    "normal_form": "в",
+    "part_of_speech": "PR=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "В",
+        1
+      ]
+    ]
+  },
+  "плавать": {
+    "normal_form": "плавать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "плавает",
+        1
+      ]
+    ]
+  },
+  "чудо": {
+    "normal_form": "чудо",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "чудо",
+        1
+      ]
+    ]
+  },
+  "юдо": {
+    "normal_form": "юдо",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "юдо",
+        1
+      ]
+    ]
+  },
+  "рыба": {
+    "normal_form": "рыба",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "рыба",
+        1
+      ]
+    ]
+  },
+  "кит": {
+    "normal_form": "кит",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "кит",
+        1
+      ]
+    ]
+  },
+  "за": {
+    "normal_form": "за",
+    "part_of_speech": "PR=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "За",
+        1
+      ]
+    ]
+  },
+  "на": {
+    "normal_form": "на",
+    "part_of_speech": "PR=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "на",
+        1
+      ]
+    ]
+  },
+  "косить": {
+    "normal_form": "косить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "косил",
+        1
+      ]
+    ]
+  },
+  "коса": {
+    "normal_form": "коса",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "косой",
+        1
+      ]
+    ]
+  }
+}

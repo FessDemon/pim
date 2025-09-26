@@ -1,0 +1,32 @@
+[
+  {
+    "wordform": "Процедура",
+    "lemma": "процедура",
+    "part_of_speech": "S",
+    "grammar_info": "жен,неод=им,ед",
+    "in_dictionary": true,
+    "weight": 1,
+    "full_gr_string": "S,жен,неод=им,ед",
+    "qual": "unknown"
+  },
+  {
+    "wordform": "разбора",
+    "lemma": "разбор",
+    "part_of_speech": "S",
+    "grammar_info": "муж,неод=род,ед",
+    "in_dictionary": true,
+    "weight": 1,
+    "full_gr_string": "S,муж,неод=род,ед",
+    "qual": "unknown"
+  },
+  {
+    "wordform": "текста",
+    "lemma": "текст",
+    "part_of_speech": "S",
+    "grammar_info": "муж,неод=род,ед",
+    "in_dictionary": true,
+    "weight": 1,
+    "full_gr_string": "S,муж,неод=род,ед",
+    "qual": "unknown"
+  }
+]

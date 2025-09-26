@@ -1,0 +1,6001 @@
+{
+  "он": {
+    "normal_form": "он",
+    "part_of_speech": "SPRO",
+    "frequency": 72,
+    "wordforms": [
+      [
+        "он",
+        44
+      ],
+      [
+        "Он",
+        11
+      ],
+      [
+        "его",
+        8
+      ],
+      [
+        "него",
+        4
+      ],
+      [
+        "ему",
+        2
+      ],
+      [
+        "нему",
+        2
+      ],
+      [
+        "Его",
+        1
+      ]
+    ]
+  },
+  "сказать": {
+    "normal_form": "сказать",
+    "part_of_speech": "V",
+    "frequency": 60,
+    "wordforms": [
+      [
+        "сказал",
+        32
+      ],
+      [
+        "сказала",
+        26
+      ],
+      [
+        "скажи",
+        1
+      ],
+      [
+        "сказать",
+        1
+      ]
+    ]
+  },
+  "она": {
+    "normal_form": "она",
+    "part_of_speech": "SPRO",
+    "frequency": 57,
+    "wordforms": [
+      [
+        "она",
+        37
+      ],
+      [
+        "Она",
+        11
+      ],
+      [
+        "ее",
+        5
+      ],
+      [
+        "нее",
+        3
+      ],
+      [
+        "ей",
+        1
+      ]
+    ]
+  },
+  "я": {
+    "normal_form": "я",
+    "part_of_speech": "SPRO",
+    "frequency": 50,
+    "wordforms": [
+      [
+        "Я",
+        25
+      ],
+      [
+        "я",
+        12
+      ],
+      [
+        "меня",
+        8
+      ],
+      [
+        "мне",
+        3
+      ],
+      [
+        "мной",
+        1
+      ],
+      [
+        "Мне",
+        1
+      ]
+    ]
+  },
+  "ты": {
+    "normal_form": "ты",
+    "part_of_speech": "SPRO",
+    "frequency": 46,
+    "wordforms": [
+      [
+        "ты",
+        12
+      ],
+      [
+        "тебя",
+        11
+      ],
+      [
+        "Ты",
+        9
+      ],
+      [
+        "тебе",
+        7
+      ],
+      [
+        "Тебе",
+        4
+      ],
+      [
+        "тобой",
+        3
+      ]
+    ]
+  },
+  "ньют": {
+    "normal_form": "ньют",
+    "part_of_speech": "S",
+    "frequency": 41,
+    "wordforms": [
+      [
+        "Ньют",
+        37
+      ],
+      [
+        "Ньюту",
+        3
+      ],
+      [
+        "Ньютом",
+        1
+      ]
+    ]
+  },
+  "не": {
+    "normal_form": "не",
+    "part_of_speech": "PART=",
+    "frequency": 39,
+    "wordforms": [
+      [
+        "не",
+        34
+      ],
+      [
+        "Не",
+        5
+      ]
+    ]
+  },
+  "быть": {
+    "normal_form": "быть",
+    "part_of_speech": "V",
+    "frequency": 35,
+    "wordforms": [
+      [
+        "было",
+        7
+      ],
+      [
+        "быть",
+        7
+      ],
+      [
+        "был",
+        5
+      ],
+      [
+        "будет",
+        4
+      ],
+      [
+        "были",
+        3
+      ],
+      [
+        "есть",
+        3
+      ],
+      [
+        "была",
+        2
+      ],
+      [
+        "Будем",
+        2
+      ],
+      [
+        "Будешь",
+        1
+      ],
+      [
+        "буду",
+        1
+      ]
+    ]
+  },
+  "что": {
+    "normal_form": "что",
+    "part_of_speech": "CONJ=",
+    "frequency": 34,
+    "wordforms": [
+      [
+        "что",
+        27
+      ],
+      [
+        "Что",
+        6
+      ],
+      [
+        "чего",
+        1
+      ]
+    ]
+  },
+  "в": {
+    "normal_form": "в",
+    "part_of_speech": "PR=",
+    "frequency": 27,
+    "wordforms": [
+      [
+        "в",
+        25
+      ],
+      [
+        "В",
+        2
+      ]
+    ]
+  },
+  "катарина": {
+    "normal_form": "катарина",
+    "part_of_speech": "S",
+    "frequency": 24,
+    "wordforms": [
+      [
+        "Катарина",
+        21
+      ],
+      [
+        "Катарины",
+        2
+      ],
+      [
+        "Катариной",
+        1
+      ]
+    ]
+  },
+  "и": {
+    "normal_form": "и",
+    "part_of_speech": "CONJ=",
+    "frequency": 21,
+    "wordforms": [
+      [
+        "и",
+        16
+      ],
+      [
+        "И",
+        5
+      ]
+    ]
+  },
+  "как": {
+    "normal_form": "как",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 15,
+    "wordforms": [
+      [
+        "как",
+        11
+      ],
+      [
+        "Как",
+        4
+      ]
+    ]
+  },
+  "любить": {
+    "normal_form": "любить",
+    "part_of_speech": "V",
+    "frequency": 13,
+    "wordforms": [
+      [
+        "люблю",
+        6
+      ],
+      [
+        "любишь",
+        3
+      ],
+      [
+        "любила",
+        3
+      ],
+      [
+        "любил",
+        1
+      ]
+    ]
+  },
+  "на": {
+    "normal_form": "на",
+    "part_of_speech": "PR=",
+    "frequency": 12,
+    "wordforms": [
+      [
+        "на",
+        12
+      ]
+    ]
+  },
+  "знать": {
+    "normal_form": "знать",
+    "part_of_speech": "V",
+    "frequency": 12,
+    "wordforms": [
+      [
+        "знаю",
+        4
+      ],
+      [
+        "знать",
+        2
+      ],
+      [
+        "знала",
+        1
+      ],
+      [
+        "Знаю",
+        1
+      ],
+      [
+        "знаешь",
+        1
+      ],
+      [
+        "знает",
+        1
+      ],
+      [
+        "Знаешь",
+        1
+      ],
+      [
+        "зная",
+        1
+      ]
+    ]
+  },
+  "к": {
+    "normal_form": "к",
+    "part_of_speech": "PR=",
+    "frequency": 11,
+    "wordforms": [
+      [
+        "к",
+        9
+      ],
+      [
+        "К",
+        2
+      ]
+    ]
+  },
+  "пойти": {
+    "normal_form": "пойти",
+    "part_of_speech": "V",
+    "frequency": 11,
+    "wordforms": [
+      [
+        "пойдем",
+        3
+      ],
+      [
+        "Пойдем",
+        2
+      ],
+      [
+        "пошли",
+        2
+      ],
+      [
+        "Пошли",
+        1
+      ],
+      [
+        "пойдешь",
+        1
+      ],
+      [
+        "Пойдешь",
+        1
+      ],
+      [
+        "пошел",
+        1
+      ]
+    ]
+  },
+  "бы": {
+    "normal_form": "бы",
+    "part_of_speech": "PART=",
+    "frequency": 11,
+    "wordforms": [
+      [
+        "бы",
+        11
+      ]
+    ]
+  },
+  "спрашивать": {
+    "normal_form": "спрашивать",
+    "part_of_speech": "V=прош",
+    "frequency": 10,
+    "wordforms": [
+      [
+        "спросил",
+        6
+      ],
+      [
+        "спросила",
+        4
+      ]
+    ]
+  },
+  "это": {
+    "normal_form": "это",
+    "part_of_speech": "SPRO",
+    "frequency": 10,
+    "wordforms": [
+      [
+        "это",
+        7
+      ],
+      [
+        "Это",
+        2
+      ],
+      [
+        "этого",
+        1
+      ]
+    ]
+  },
+  "мочь": {
+    "normal_form": "мочь",
+    "part_of_speech": "V",
+    "frequency": 10,
+    "wordforms": [
+      [
+        "может",
+        5
+      ],
+      [
+        "могу",
+        2
+      ],
+      [
+        "мог",
+        1
+      ],
+      [
+        "Может",
+        1
+      ],
+      [
+        "Мог",
+        1
+      ]
+    ]
+  },
+  "они": {
+    "normal_form": "они",
+    "part_of_speech": "SPRO",
+    "frequency": 9,
+    "wordforms": [
+      [
+        "Они",
+        3
+      ],
+      [
+        "они",
+        3
+      ],
+      [
+        "им",
+        2
+      ],
+      [
+        "ними",
+        1
+      ]
+    ]
+  },
+  "за": {
+    "normal_form": "за",
+    "part_of_speech": "PR=",
+    "frequency": 9,
+    "wordforms": [
+      [
+        "за",
+        9
+      ]
+    ]
+  },
+  "дерево": {
+    "normal_form": "дерево",
+    "part_of_speech": "S",
+    "frequency": 8,
+    "wordforms": [
+      [
+        "деревьев",
+        4
+      ],
+      [
+        "деревьями",
+        2
+      ],
+      [
+        "деревом",
+        1
+      ],
+      [
+        "дерева",
+        1
+      ]
+    ]
+  },
+  "так": {
+    "normal_form": "так",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 8,
+    "wordforms": [
+      [
+        "так",
+        6
+      ],
+      [
+        "Так",
+        2
+      ]
+    ]
+  },
+  "по": {
+    "normal_form": "по",
+    "part_of_speech": "PR=",
+    "frequency": 7,
+    "wordforms": [
+      [
+        "по",
+        6
+      ],
+      [
+        "По",
+        1
+      ]
+    ]
+  },
+  "для": {
+    "normal_form": "для",
+    "part_of_speech": "PR=",
+    "frequency": 7,
+    "wordforms": [
+      [
+        "для",
+        7
+      ]
+    ]
+  },
+  "журнал": {
+    "normal_form": "журнал",
+    "part_of_speech": "S",
+    "frequency": 7,
+    "wordforms": [
+      [
+        "журнал",
+        3
+      ],
+      [
+        "журнала",
+        2
+      ],
+      [
+        "Журнал",
+        1
+      ],
+      [
+        "журналом",
+        1
+      ]
+    ]
+  },
+  "говорить": {
+    "normal_form": "говорить",
+    "part_of_speech": "V",
+    "frequency": 7,
+    "wordforms": [
+      [
+        "говорить",
+        2
+      ],
+      [
+        "говоря",
+        1
+      ],
+      [
+        "говорил",
+        1
+      ],
+      [
+        "говоришь",
+        1
+      ],
+      [
+        "говорю",
+        1
+      ],
+      [
+        "Говорю",
+        1
+      ]
+    ]
+  },
+  "далеко": {
+    "normal_form": "далеко",
+    "part_of_speech": "ADV=",
+    "frequency": 7,
+    "wordforms": [
+      [
+        "дальше",
+        4
+      ],
+      [
+        "далеко",
+        3
+      ]
+    ]
+  },
+  "много": {
+    "normal_form": "много",
+    "part_of_speech": "ADV",
+    "frequency": 7,
+    "wordforms": [
+      [
+        "много",
+        6
+      ],
+      [
+        "Много",
+        1
+      ]
+    ]
+  },
+  "дело": {
+    "normal_form": "дело",
+    "part_of_speech": "S",
+    "frequency": 7,
+    "wordforms": [
+      [
+        "деле",
+        5
+      ],
+      [
+        "дел",
+        1
+      ],
+      [
+        "дело",
+        1
+      ]
+    ]
+  },
+  "если": {
+    "normal_form": "если",
+    "part_of_speech": "CONJ=",
+    "frequency": 7,
+    "wordforms": [
+      [
+        "если",
+        4
+      ],
+      [
+        "Если",
+        3
+      ]
+    ]
+  },
+  "а": {
+    "normal_form": "а",
+    "part_of_speech": "CONJ=",
+    "frequency": 7,
+    "wordforms": [
+      [
+        "А",
+        5
+      ],
+      [
+        "а",
+        2
+      ]
+    ]
+  },
+  "с": {
+    "normal_form": "с",
+    "part_of_speech": "PR=",
+    "frequency": 6,
+    "wordforms": [
+      [
+        "с",
+        5
+      ],
+      [
+        "С",
+        1
+      ]
+    ]
+  },
+  "от": {
+    "normal_form": "от",
+    "part_of_speech": "PR=",
+    "frequency": 6,
+    "wordforms": [
+      [
+        "от",
+        6
+      ]
+    ]
+  },
+  "школа": {
+    "normal_form": "школа",
+    "part_of_speech": "S",
+    "frequency": 6,
+    "wordforms": [
+      [
+        "школы",
+        2
+      ],
+      [
+        "Школа",
+        2
+      ],
+      [
+        "школе",
+        1
+      ],
+      [
+        "школу",
+        1
+      ]
+    ]
+  },
+  "о": {
+    "normal_form": "о",
+    "part_of_speech": "PR=",
+    "frequency": 6,
+    "wordforms": [
+      [
+        "о",
+        3
+      ],
+      [
+        "О",
+        3
+      ]
+    ]
+  },
+  "невеста": {
+    "normal_form": "невеста",
+    "part_of_speech": "S",
+    "frequency": 6,
+    "wordforms": [
+      [
+        "невест",
+        2
+      ],
+      [
+        "невестой",
+        2
+      ],
+      [
+        "невестах",
+        1
+      ],
+      [
+        "невесту",
+        1
+      ]
+    ]
+  },
+  "погулять": {
+    "normal_form": "погулять",
+    "part_of_speech": "V",
+    "frequency": 6,
+    "wordforms": [
+      [
+        "погуляем",
+        4
+      ],
+      [
+        "погулять",
+        1
+      ],
+      [
+        "погуляли",
+        1
+      ]
+    ]
+  },
+  "шаг": {
+    "normal_form": "шаг",
+    "part_of_speech": "S",
+    "frequency": 6,
+    "wordforms": [
+      [
+        "Шаг",
+        3
+      ],
+      [
+        "шагом",
+        3
+      ]
+    ]
+  },
+  "рука": {
+    "normal_form": "рука",
+    "part_of_speech": "S",
+    "frequency": 6,
+    "wordforms": [
+      [
+        "руки",
+        3
+      ],
+      [
+        "руками",
+        2
+      ],
+      [
+        "руку",
+        1
+      ]
+    ]
+  },
+  "давать": {
+    "normal_form": "давать",
+    "part_of_speech": "V",
+    "frequency": 6,
+    "wordforms": [
+      [
+        "дала",
+        3
+      ],
+      [
+        "Дай",
+        1
+      ],
+      [
+        "давай",
+        1
+      ],
+      [
+        "Дала",
+        1
+      ]
+    ]
+  },
+  "мы": {
+    "normal_form": "мы",
+    "part_of_speech": "SPRO",
+    "frequency": 6,
+    "wordforms": [
+      [
+        "мы",
+        4
+      ],
+      [
+        "Мы",
+        1
+      ],
+      [
+        "нам",
+        1
+      ]
+    ]
+  },
+  "но": {
+    "normal_form": "но",
+    "part_of_speech": "CONJ=",
+    "frequency": 6,
+    "wordforms": [
+      [
+        "но",
+        3
+      ],
+      [
+        "Но",
+        3
+      ]
+    ]
+  },
+  "слепой": {
+    "normal_form": "слепой",
+    "part_of_speech": "S",
+    "frequency": 5,
+    "wordforms": [
+      [
+        "слепых",
+        5
+      ]
+    ]
+  },
+  "еще": {
+    "normal_form": "еще",
+    "part_of_speech": "ADV=",
+    "frequency": 5,
+    "wordforms": [
+      [
+        "еще",
+        4
+      ],
+      [
+        "Еще",
+        1
+      ]
+    ]
+  },
+  "выходить": {
+    "normal_form": "выходить",
+    "part_of_speech": "V",
+    "frequency": 5,
+    "wordforms": [
+      [
+        "вышла",
+        2
+      ],
+      [
+        "выхожу",
+        1
+      ],
+      [
+        "выходить",
+        1
+      ],
+      [
+        "выходила",
+        1
+      ]
+    ]
+  },
+  "румяный": {
+    "normal_form": "румяный",
+    "part_of_speech": "A=(пр",
+    "frequency": 5,
+    "wordforms": [
+      [
+        "румяных",
+        2
+      ],
+      [
+        "румяной",
+        1
+      ],
+      [
+        "Румяной",
+        1
+      ],
+      [
+        "румяную",
+        1
+      ]
+    ]
+  },
+  "хотеть": {
+    "normal_form": "хотеть",
+    "part_of_speech": "V",
+    "frequency": 5,
+    "wordforms": [
+      [
+        "хочу",
+        3
+      ],
+      [
+        "Хочу",
+        1
+      ],
+      [
+        "хотела",
+        1
+      ]
+    ]
+  },
+  "сейчас": {
+    "normal_form": "сейчас",
+    "part_of_speech": "ADV=",
+    "frequency": 5,
+    "wordforms": [
+      [
+        "сейчас",
+        4
+      ],
+      [
+        "Сейчас",
+        1
+      ]
+    ]
+  },
+  "надо": {
+    "normal_form": "надо",
+    "part_of_speech": "ADV",
+    "frequency": 5,
+    "wordforms": [
+      [
+        "надо",
+        3
+      ],
+      [
+        "Надо",
+        2
+      ]
+    ]
+  },
+  "самый": {
+    "normal_form": "самый",
+    "part_of_speech": "APRO=(пр",
+    "frequency": 5,
+    "wordforms": [
+      [
+        "самом",
+        5
+      ]
+    ]
+  },
+  "хорошо": {
+    "normal_form": "хорошо",
+    "part_of_speech": "ADV=вводн",
+    "frequency": 5,
+    "wordforms": [
+      [
+        "Хорошо",
+        4
+      ],
+      [
+        "хорошо",
+        1
+      ]
+    ]
+  },
+  "понимать": {
+    "normal_form": "понимать",
+    "part_of_speech": "V=инф",
+    "frequency": 5,
+    "wordforms": [
+      [
+        "понять",
+        2
+      ],
+      [
+        "поняла",
+        2
+      ],
+      [
+        "понимаешь",
+        1
+      ]
+    ]
+  },
+  "увидеть": {
+    "normal_form": "увидеть",
+    "part_of_speech": "V",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "увидел",
+        2
+      ],
+      [
+        "увидев",
+        1
+      ],
+      [
+        "увидела",
+        1
+      ]
+    ]
+  },
+  "лист": {
+    "normal_form": "лист",
+    "part_of_speech": "S",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "листьям",
+        4
+      ]
+    ]
+  },
+  "отвечать": {
+    "normal_form": "отвечать",
+    "part_of_speech": "V",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "ответил",
+        2
+      ],
+      [
+        "ответить",
+        1
+      ],
+      [
+        "ответила",
+        1
+      ]
+    ]
+  },
+  "генри": {
+    "normal_form": "генри",
+    "part_of_speech": "S",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "Генри",
+        4
+      ]
+    ]
+  },
+  "из": {
+    "normal_form": "из",
+    "part_of_speech": "PR=",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "из",
+        3
+      ],
+      [
+        "Из",
+        1
+      ]
+    ]
+  },
+  "да": {
+    "normal_form": "да",
+    "part_of_speech": "CONJ=",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "Да",
+        3
+      ],
+      [
+        "да",
+        1
+      ]
+    ]
+  },
+  "то": {
+    "normal_form": "то",
+    "part_of_speech": "PART=",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "то",
+        3
+      ],
+      [
+        "того",
+        1
+      ]
+    ]
+  },
+  "самоволка": {
+    "normal_form": "самоволка",
+    "part_of_speech": "S",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "самоволке",
+        2
+      ],
+      [
+        "самоволки",
+        1
+      ],
+      [
+        "самоволку",
+        1
+      ]
+    ]
+  },
+  "твой": {
+    "normal_form": "твой",
+    "part_of_speech": "APRO=(дат",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "твоему",
+        1
+      ],
+      [
+        "твоя",
+        1
+      ],
+      [
+        "твое",
+        1
+      ],
+      [
+        "твой",
+        1
+      ]
+    ]
+  },
+  "никогда": {
+    "normal_form": "никогда",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "никогда",
+        4
+      ]
+    ]
+  },
+  "рано": {
+    "normal_form": "рано",
+    "part_of_speech": "ADV=срав",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "раньше",
+        4
+      ]
+    ]
+  },
+  "останавливаться": {
+    "normal_form": "останавливаться",
+    "part_of_speech": "V",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "остановилась",
+        2
+      ],
+      [
+        "остановится",
+        1
+      ],
+      [
+        "остановился",
+        1
+      ]
+    ]
+  },
+  "друг": {
+    "normal_form": "друг",
+    "part_of_speech": "S",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "друга",
+        1
+      ],
+      [
+        "друг",
+        1
+      ],
+      [
+        "другу",
+        1
+      ],
+      [
+        "друзьями",
+        1
+      ]
+    ]
+  },
+  "поздно": {
+    "normal_form": "поздно",
+    "part_of_speech": "ADV=",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "поздно",
+        3
+      ],
+      [
+        "Поздно",
+        1
+      ]
+    ]
+  },
+  "сделать": {
+    "normal_form": "сделать",
+    "part_of_speech": "V",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "сделать",
+        2
+      ],
+      [
+        "сделал",
+        2
+      ]
+    ]
+  },
+  "садиться": {
+    "normal_form": "садиться",
+    "part_of_speech": "V",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "села",
+        2
+      ],
+      [
+        "сел",
+        1
+      ],
+      [
+        "Садись",
+        1
+      ]
+    ]
+  },
+  "глаз": {
+    "normal_form": "глаз",
+    "part_of_speech": "S",
+    "frequency": 4,
+    "wordforms": [
+      [
+        "глаза",
+        4
+      ]
+    ]
+  },
+  "город": {
+    "normal_form": "город",
+    "part_of_speech": "S",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "города",
+        2
+      ],
+      [
+        "городе",
+        1
+      ]
+    ]
+  },
+  "колокольня": {
+    "normal_form": "колокольня",
+    "part_of_speech": "S",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "колокольне",
+        2
+      ],
+      [
+        "колокольни",
+        1
+      ]
+    ]
+  },
+  "теперь": {
+    "normal_form": "теперь",
+    "part_of_speech": "ADV=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "Теперь",
+        3
+      ]
+    ]
+  },
+  "между": {
+    "normal_form": "между",
+    "part_of_speech": "PR=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "между",
+        3
+      ]
+    ]
+  },
+  "любовь": {
+    "normal_form": "любовь",
+    "part_of_speech": "S",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "любовь",
+        2
+      ],
+      [
+        "любви",
+        1
+      ]
+    ]
+  },
+  "дом": {
+    "normal_form": "дом",
+    "part_of_speech": "S",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "дома",
+        3
+      ]
+    ]
+  },
+  "свой": {
+    "normal_form": "свой",
+    "part_of_speech": "APRO=вин",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "свою",
+        1
+      ],
+      [
+        "своему",
+        1
+      ],
+      [
+        "своего",
+        1
+      ]
+    ]
+  },
+  "очень": {
+    "normal_form": "очень",
+    "part_of_speech": "ADV=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "очень",
+        3
+      ]
+    ]
+  },
+  "этот": {
+    "normal_form": "этот",
+    "part_of_speech": "APRO=им",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "Эта",
+        1
+      ],
+      [
+        "этой",
+        1
+      ],
+      [
+        "Это",
+        1
+      ]
+    ]
+  },
+  "когда": {
+    "normal_form": "когда",
+    "part_of_speech": "CONJ=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "когда",
+        2
+      ],
+      [
+        "Когда",
+        1
+      ]
+    ]
+  },
+  "идти": {
+    "normal_form": "идти",
+    "part_of_speech": "V",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "шла",
+        1
+      ],
+      [
+        "шли",
+        1
+      ],
+      [
+        "идти",
+        1
+      ]
+    ]
+  },
+  "через": {
+    "normal_form": "через",
+    "part_of_speech": "PR=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "через",
+        3
+      ]
+    ]
+  },
+  "мост": {
+    "normal_form": "мост",
+    "part_of_speech": "S",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "мосты",
+        3
+      ]
+    ]
+  },
+  "все": {
+    "normal_form": "все",
+    "part_of_speech": "SPRO",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "все",
+        2
+      ],
+      [
+        "Все",
+        1
+      ]
+    ]
+  },
+  "до": {
+    "normal_form": "до",
+    "part_of_speech": "PR=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "до",
+        3
+      ]
+    ]
+  },
+  "свадьба": {
+    "normal_form": "свадьба",
+    "part_of_speech": "S",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "свадьбы",
+        2
+      ],
+      [
+        "свадьбу",
+        1
+      ]
+    ]
+  },
+  "весь": {
+    "normal_form": "весь",
+    "part_of_speech": "APRO=(вин",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "всего",
+        1
+      ],
+      [
+        "все",
+        1
+      ],
+      [
+        "всем",
+        1
+      ]
+    ]
+  },
+  "подумать": {
+    "normal_form": "подумать",
+    "part_of_speech": "V",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "подумав",
+        1
+      ],
+      [
+        "подумали",
+        1
+      ],
+      [
+        "Подумали",
+        1
+      ]
+    ]
+  },
+  "отпуск": {
+    "normal_form": "отпуск",
+    "part_of_speech": "S",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "отпуск",
+        1
+      ],
+      [
+        "Отпуск",
+        1
+      ],
+      [
+        "отпуске",
+        1
+      ]
+    ]
+  },
+  "муж": {
+    "normal_form": "муж",
+    "part_of_speech": "S",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "мужу",
+        1
+      ],
+      [
+        "муж",
+        1
+      ],
+      [
+        "мужа",
+        1
+      ]
+    ]
+  },
+  "день": {
+    "normal_form": "день",
+    "part_of_speech": "S",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "дней",
+        2
+      ],
+      [
+        "дня",
+        1
+      ]
+    ]
+  },
+  "нет": {
+    "normal_form": "нет",
+    "part_of_speech": "PART=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "Нет",
+        3
+      ]
+    ]
+  },
+  "чтобы": {
+    "normal_form": "чтобы",
+    "part_of_speech": "CONJ=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "чтобы",
+        2
+      ],
+      [
+        "Чтобы",
+        1
+      ]
+    ]
+  },
+  "же": {
+    "normal_form": "же",
+    "part_of_speech": "PART=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "же",
+        3
+      ]
+    ]
+  },
+  "глубоко": {
+    "normal_form": "глубоко",
+    "part_of_speech": "ADV=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "глубоко",
+        3
+      ]
+    ]
+  },
+  "оно": {
+    "normal_form": "оно",
+    "part_of_speech": "SPRO",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "оно",
+        3
+      ]
+    ]
+  },
+  "слишком": {
+    "normal_form": "слишком",
+    "part_of_speech": "ADV=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "Слишком",
+        2
+      ],
+      [
+        "слишком",
+        1
+      ]
+    ]
+  },
+  "просто": {
+    "normal_form": "просто",
+    "part_of_speech": "PART=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "просто",
+        2
+      ],
+      [
+        "Просто",
+        1
+      ]
+    ]
+  },
+  "повертываться": {
+    "normal_form": "повертываться",
+    "part_of_speech": "V",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "повернулась",
+        1
+      ],
+      [
+        "Повернулась",
+        1
+      ],
+      [
+        "Повернулся",
+        1
+      ]
+    ]
+  },
+  "поцеловать": {
+    "normal_form": "поцеловать",
+    "part_of_speech": "V",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "поцеловал",
+        2
+      ],
+      [
+        "Поцеловал",
+        1
+      ]
+    ]
+  },
+  "прощаться": {
+    "normal_form": "прощаться",
+    "part_of_speech": "V",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "прощаться",
+        2
+      ],
+      [
+        "прощаемся",
+        1
+      ]
+    ]
+  },
+  "под": {
+    "normal_form": "под",
+    "part_of_speech": "PR=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "под",
+        3
+      ]
+    ]
+  },
+  "пусть": {
+    "normal_form": "пусть",
+    "part_of_speech": "PART=",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "Пусть",
+        2
+      ],
+      [
+        "пусть",
+        1
+      ]
+    ]
+  },
+  "дия": {
+    "normal_form": "дия",
+    "part_of_speech": "S",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "дии",
+        3
+      ]
+    ]
+  },
+  "заворчать": {
+    "normal_form": "заворчать",
+    "part_of_speech": "V",
+    "frequency": 3,
+    "wordforms": [
+      [
+        "заворчал",
+        3
+      ]
+    ]
+  },
+  "сад": {
+    "normal_form": "сад",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "садами",
+        1
+      ],
+      [
+        "саду",
+        1
+      ]
+    ]
+  },
+  "неподалеку": {
+    "normal_form": "неподалеку",
+    "part_of_speech": "ADV=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "неподалеку",
+        2
+      ]
+    ]
+  },
+  "двадцать": {
+    "normal_form": "двадцать",
+    "part_of_speech": "NUM=(вин|им)",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "двадцать",
+        1
+      ],
+      [
+        "двадцати",
+        1
+      ]
+    ]
+  },
+  "почти": {
+    "normal_form": "почти",
+    "part_of_speech": "ADV=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "почти",
+        2
+      ]
+    ]
+  },
+  "всегда": {
+    "normal_form": "всегда",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "всегда",
+        2
+      ]
+    ]
+  },
+  "разговор": {
+    "normal_form": "разговор",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "разговоров",
+        1
+      ],
+      [
+        "разговора",
+        1
+      ]
+    ]
+  },
+  "звать": {
+    "normal_form": "звать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "звали",
+        1
+      ],
+      [
+        "зовут",
+        1
+      ]
+    ]
+  },
+  "дверь": {
+    "normal_form": "дверь",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "дверь",
+        1
+      ],
+      [
+        "двери",
+        1
+      ]
+    ]
+  },
+  "который": {
+    "normal_form": "который",
+    "part_of_speech": "APRO=(вин",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "который",
+        1
+      ],
+      [
+        "которые",
+        1
+      ]
+    ]
+  },
+  "читать": {
+    "normal_form": "читать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "читала",
+        1
+      ],
+      [
+        "читал",
+        1
+      ]
+    ]
+  },
+  "восклицать": {
+    "normal_form": "восклицать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "воскликнула",
+        2
+      ]
+    ]
+  },
+  "даже": {
+    "normal_form": "даже",
+    "part_of_speech": "CONJ=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "даже",
+        2
+      ]
+    ]
+  },
+  "скрывать": {
+    "normal_form": "скрывать",
+    "part_of_speech": "V=прош",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "скрывал",
+        1
+      ],
+      [
+        "скрыть",
+        1
+      ]
+    ]
+  },
+  "рассеянно": {
+    "normal_form": "рассеянно",
+    "part_of_speech": "ADV=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "рассеянно",
+        2
+      ]
+    ]
+  },
+  "будто": {
+    "normal_form": "будто",
+    "part_of_speech": "PART=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "будто",
+        2
+      ]
+    ]
+  },
+  "вещь": {
+    "normal_form": "вещь",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "вещи",
+        1
+      ],
+      [
+        "вещах",
+        1
+      ]
+    ]
+  },
+  "отдыхать": {
+    "normal_form": "отдыхать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "отдыхающим",
+        1
+      ],
+      [
+        "Отдыхай",
+        1
+      ]
+    ]
+  },
+  "красивый": {
+    "normal_form": "красивый",
+    "part_of_speech": "A=твор",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "красивыми",
+        1
+      ],
+      [
+        "красивую",
+        1
+      ]
+    ]
+  },
+  "гулять": {
+    "normal_form": "гулять",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Гулять",
+        1
+      ],
+      [
+        "гулять",
+        1
+      ]
+    ]
+  },
+  "приезжать": {
+    "normal_form": "приезжать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "приехал",
+        2
+      ]
+    ]
+  },
+  "посмотреть": {
+    "normal_form": "посмотреть",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "посмотреть",
+        1
+      ],
+      [
+        "Посмотрел",
+        1
+      ]
+    ]
+  },
+  "замуж": {
+    "normal_form": "замуж",
+    "part_of_speech": "ADV=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "замуж",
+        2
+      ]
+    ]
+  },
+  "неделя": {
+    "normal_form": "неделя",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "неделя",
+        1
+      ],
+      [
+        "неделю",
+        1
+      ]
+    ]
+  },
+  "стюарт": {
+    "normal_form": "стюарт",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Стюарту",
+        1
+      ],
+      [
+        "Стюарт",
+        1
+      ]
+    ]
+  },
+  "чезенс": {
+    "normal_form": "чезенс",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Чезенсу",
+        1
+      ],
+      [
+        "Чезенс",
+        1
+      ]
+    ]
+  },
+  "мать": {
+    "normal_form": "мать",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Мать",
+        1
+      ],
+      [
+        "матери",
+        1
+      ]
+    ]
+  },
+  "понравиться": {
+    "normal_form": "понравиться",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "понравится",
+        1
+      ],
+      [
+        "понравилось",
+        1
+      ]
+    ]
+  },
+  "смочь": {
+    "normal_form": "смочь",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Сможешь",
+        1
+      ],
+      [
+        "сможешь",
+        1
+      ]
+    ]
+  },
+  "приходить": {
+    "normal_form": "приходить",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "прийти",
+        1
+      ],
+      [
+        "пришел",
+        1
+      ]
+    ]
+  },
+  "у": {
+    "normal_form": "у",
+    "part_of_speech": "PR=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "У",
+        2
+      ]
+    ]
+  },
+  "переспрашивать": {
+    "normal_form": "переспрашивать",
+    "part_of_speech": "V=прош",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "переспросил",
+        2
+      ]
+    ]
+  },
+  "сувенир": {
+    "normal_form": "сувенир",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "сувениров",
+        1
+      ],
+      [
+        "сувенир",
+        1
+      ]
+    ]
+  },
+  "глядеть": {
+    "normal_form": "глядеть",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "глядя",
+        1
+      ],
+      [
+        "глядел",
+        1
+      ]
+    ]
+  },
+  "улыбаться": {
+    "normal_form": "улыбаться",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Улыбнулся",
+        1
+      ],
+      [
+        "улыбнулся",
+        1
+      ]
+    ]
+  },
+  "подымать": {
+    "normal_form": "подымать",
+    "part_of_speech": "V=прош",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "подняв",
+        1
+      ],
+      [
+        "поднял",
+        1
+      ]
+    ]
+  },
+  "откуда": {
+    "normal_form": "откуда",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Откуда",
+        1
+      ],
+      [
+        "откуда",
+        1
+      ]
+    ]
+  },
+  "каролина": {
+    "normal_form": "каролина",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Каролина",
+        2
+      ]
+    ]
+  },
+  "большой": {
+    "normal_form": "большой",
+    "part_of_speech": "A=(вин",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "большой",
+        1
+      ],
+      [
+        "большом",
+        1
+      ]
+    ]
+  },
+  "потому": {
+    "normal_form": "потому",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Потому",
+        1
+      ],
+      [
+        "потому",
+        1
+      ]
+    ]
+  },
+  "чуть": {
+    "normal_form": "чуть",
+    "part_of_speech": "ADV=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "чуть",
+        2
+      ]
+    ]
+  },
+  "глупый": {
+    "normal_form": "глупый",
+    "part_of_speech": "A=ед",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "глупо",
+        1
+      ],
+      [
+        "глупый",
+        1
+      ]
+    ]
+  },
+  "тронуть": {
+    "normal_form": "тронуть",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "тронута",
+        2
+      ]
+    ]
+  },
+  "вот": {
+    "normal_form": "вот",
+    "part_of_speech": "PART=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "вот",
+        1
+      ],
+      [
+        "Вот",
+        1
+      ]
+    ]
+  },
+  "поверять": {
+    "normal_form": "поверять",
+    "part_of_speech": "V=инф",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "поверить",
+        2
+      ]
+    ]
+  },
+  "целовать": {
+    "normal_form": "целовать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "целовал",
+        1
+      ],
+      [
+        "целуют",
+        1
+      ]
+    ]
+  },
+  "иметь": {
+    "normal_form": "иметь",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "имела",
+        1
+      ],
+      [
+        "имеешь",
+        1
+      ]
+    ]
+  },
+  "ждать": {
+    "normal_form": "ждать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "ждал",
+        2
+      ]
+    ]
+  },
+  "такой": {
+    "normal_form": "такой",
+    "part_of_speech": "APRO=(вин",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "такого",
+        1
+      ],
+      [
+        "такой",
+        1
+      ]
+    ]
+  },
+  "делать": {
+    "normal_form": "делать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "делал",
+        1
+      ],
+      [
+        "делать",
+        1
+      ]
+    ]
+  },
+  "думать": {
+    "normal_form": "думать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Думал",
+        1
+      ],
+      [
+        "Думаю",
+        1
+      ]
+    ]
+  },
+  "прощать": {
+    "normal_form": "прощать",
+    "part_of_speech": "V=ед",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Прости",
+        2
+      ]
+    ]
+  },
+  "разочаровывать": {
+    "normal_form": "разочаровывать",
+    "part_of_speech": "V=прош",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "разочаровала",
+        1
+      ],
+      [
+        "разочарован",
+        1
+      ]
+    ]
+  },
+  "здорово": {
+    "normal_form": "здорово",
+    "part_of_speech": "ADV=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "здорово",
+        2
+      ]
+    ]
+  },
+  "пожимать": {
+    "normal_form": "пожимать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "пожмем",
+        2
+      ]
+    ]
+  },
+  "расходиться": {
+    "normal_form": "расходиться",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "разойдемся",
+        1
+      ],
+      [
+        "Разойдемся",
+        1
+      ]
+    ]
+  },
+  "случаться": {
+    "normal_form": "случаться",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "случиться",
+        2
+      ]
+    ]
+  },
+  "кивнуть": {
+    "normal_form": "кивнуть",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "кивнул",
+        1
+      ],
+      [
+        "кивнула",
+        1
+      ]
+    ]
+  },
+  "вспоминать": {
+    "normal_form": "вспоминать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Вспоминай",
+        1
+      ],
+      [
+        "вспоминай",
+        1
+      ]
+    ]
+  },
+  "время": {
+    "normal_form": "время",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "время",
+        1
+      ],
+      [
+        "времени",
+        1
+      ]
+    ]
+  },
+  "поглядеть": {
+    "normal_form": "поглядеть",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "поглядела",
+        2
+      ]
+    ]
+  },
+  "должный": {
+    "normal_form": "должный",
+    "part_of_speech": "A=ед",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "должен",
+        2
+      ]
+    ]
+  },
+  "лицо": {
+    "normal_form": "лицо",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Лицо",
+        1
+      ],
+      [
+        "лицо",
+        1
+      ]
+    ]
+  },
+  "повторять": {
+    "normal_form": "повторять",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "повторила",
+        2
+      ]
+    ]
+  },
+  "женщина": {
+    "normal_form": "женщина",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Женщины",
+        1
+      ],
+      [
+        "женщина",
+        1
+      ]
+    ]
+  },
+  "внимательно": {
+    "normal_form": "внимательно",
+    "part_of_speech": "ADV=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "внимательно",
+        2
+      ]
+    ]
+  },
+  "потом": {
+    "normal_form": "потом",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "потом",
+        2
+      ]
+    ]
+  },
+  "раз": {
+    "normal_form": "раз",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "раз",
+        2
+      ]
+    ]
+  },
+  "счастливо": {
+    "normal_form": "счастливо",
+    "part_of_speech": "ADV=",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "счастливо",
+        1
+      ],
+      [
+        "Счастливо",
+        1
+      ]
+    ]
+  },
+  "тот": {
+    "normal_form": "тот",
+    "part_of_speech": "APRO=(вин",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "того",
+        2
+      ]
+    ]
+  },
+  "тридцать": {
+    "normal_form": "тридцать",
+    "part_of_speech": "NUM=(вин|им)",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Тридцать",
+        2
+      ]
+    ]
+  },
+  "конечно": {
+    "normal_form": "конечно",
+    "part_of_speech": "ADV",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Конечно",
+        2
+      ]
+    ]
+  },
+  "герой": {
+    "normal_form": "герой",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "героем",
+        1
+      ],
+      [
+        "герой",
+        1
+      ]
+    ]
+  },
+  "хороший": {
+    "normal_form": "хороший",
+    "part_of_speech": "A=(вин",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "хорошего",
+        2
+      ]
+    ]
+  },
+  "колокол": {
+    "normal_form": "колокол",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "колокола",
+        1
+      ],
+      [
+        "Колокола",
+        1
+      ]
+    ]
+  },
+  "закрывать": {
+    "normal_form": "закрывать",
+    "part_of_speech": "V=прош",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Закрыла",
+        1
+      ],
+      [
+        "закрыла",
+        1
+      ]
+    ]
+  },
+  "присниться": {
+    "normal_form": "присниться",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "приснится",
+        1
+      ],
+      [
+        "присниться",
+        1
+      ]
+    ]
+  },
+  "уснуть": {
+    "normal_form": "уснуть",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "уснула",
+        1
+      ],
+      [
+        "уснул",
+        1
+      ]
+    ]
+  },
+  "открывать": {
+    "normal_form": "открывать",
+    "part_of_speech": "V=прош",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "открыла",
+        1
+      ],
+      [
+        "открыл",
+        1
+      ]
+    ]
+  },
+  "тень": {
+    "normal_form": "тень",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Тени",
+        1
+      ],
+      [
+        "теней",
+        1
+      ]
+    ]
+  },
+  "затихать": {
+    "normal_form": "затихать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "затих",
+        2
+      ]
+    ]
+  },
+  "привет": {
+    "normal_form": "привет",
+    "part_of_speech": "S",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "Привет",
+        2
+      ]
+    ]
+  },
+  "позвать": {
+    "normal_form": "позвать",
+    "part_of_speech": "V",
+    "frequency": 2,
+    "wordforms": [
+      [
+        "позовет",
+        1
+      ],
+      [
+        "Позвал",
+        1
+      ]
+    ]
+  },
+  "вырастать": {
+    "normal_form": "вырастать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "выросли",
+        1
+      ]
+    ]
+  },
+  "соседство": {
+    "normal_form": "соседство",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "соседству",
+        1
+      ]
+    ]
+  },
+  "край": {
+    "normal_form": "край",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "краю",
+        1
+      ]
+    ]
+  },
+  "рядом": {
+    "normal_form": "рядом",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "рядом",
+        1
+      ]
+    ]
+  },
+  "поле": {
+    "normal_form": "поле",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "полями",
+        1
+      ]
+    ]
+  },
+  "дивный": {
+    "normal_form": "дивный",
+    "part_of_speech": "A=(пр",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "дивной",
+        1
+      ]
+    ]
+  },
+  "красота": {
+    "normal_form": "красота",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "красоты",
+        1
+      ]
+    ]
+  },
+  "принадлежать": {
+    "normal_form": "принадлежать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "принадлежавшей",
+        1
+      ]
+    ]
+  },
+  "видеться": {
+    "normal_form": "видеться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "виделись",
+        1
+      ]
+    ]
+  },
+  "год": {
+    "normal_form": "год",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "год",
+        1
+      ]
+    ]
+  },
+  "веселый": {
+    "normal_form": "веселый",
+    "part_of_speech": "A=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Веселое",
+        1
+      ]
+    ]
+  },
+  "уютный": {
+    "normal_form": "уютный",
+    "part_of_speech": "A=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "уютное",
+        1
+      ]
+    ]
+  },
+  "тепло": {
+    "normal_form": "тепло",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "тепло",
+        1
+      ]
+    ]
+  },
+  "существовать": {
+    "normal_form": "существовать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "существовало",
+        1
+      ]
+    ]
+  },
+  "никакой": {
+    "normal_form": "никакой",
+    "part_of_speech": "APRO=(пр",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "никаких",
+        1
+      ]
+    ]
+  },
+  "ее": {
+    "normal_form": "ее",
+    "part_of_speech": "APRO=(пр",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Ее",
+        1
+      ]
+    ]
+  },
+  "сразу": {
+    "normal_form": "сразу",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Сразу",
+        1
+      ]
+    ]
+  },
+  "после": {
+    "normal_form": "после",
+    "part_of_speech": "PR=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "после",
+        1
+      ]
+    ]
+  },
+  "полдень": {
+    "normal_form": "полдень",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "полудня",
+        1
+      ]
+    ]
+  },
+  "постучать": {
+    "normal_form": "постучать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "постучал",
+        1
+      ]
+    ]
+  },
+  "подходить": {
+    "normal_form": "подходить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "подошла",
+        1
+      ]
+    ]
+  },
+  "нести": {
+    "normal_form": "нести",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "несла",
+        1
+      ]
+    ]
+  },
+  "пухлый": {
+    "normal_form": "пухлый",
+    "part_of_speech": "A=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "пухлый",
+        1
+      ]
+    ]
+  },
+  "глянцевый": {
+    "normal_form": "глянцевый",
+    "part_of_speech": "A=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "глянцевый",
+        1
+      ]
+    ]
+  },
+  "целиком": {
+    "normal_form": "целиком",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "целиком",
+        1
+      ]
+    ]
+  },
+  "предназначаться": {
+    "normal_form": "предназначаться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "предназначался",
+        1
+      ]
+    ]
+  },
+  "удивляться": {
+    "normal_form": "удивляться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Удивилась",
+        1
+      ]
+    ]
+  },
+  "застенчивый": {
+    "normal_form": "застенчивый",
+    "part_of_speech": "A=(дат",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "застенчивым",
+        1
+      ]
+    ]
+  },
+  "застенчивость": {
+    "normal_form": "застенчивость",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "застенчивость",
+        1
+      ]
+    ]
+  },
+  "действительно": {
+    "normal_form": "действительно",
+    "part_of_speech": "ADV",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "действительно",
+        1
+      ]
+    ]
+  },
+  "волновать": {
+    "normal_form": "волновать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "волновали",
+        1
+      ]
+    ]
+  },
+  "секретный": {
+    "normal_form": "секретный",
+    "part_of_speech": "A=(дат",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "секретным",
+        1
+      ]
+    ]
+  },
+  "агент": {
+    "normal_form": "агент",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "агентом",
+        1
+      ]
+    ]
+  },
+  "промежуток": {
+    "normal_form": "промежуток",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "промежутках",
+        1
+      ]
+    ]
+  },
+  "далекий": {
+    "normal_form": "далекий",
+    "part_of_speech": "A=твор",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "далекими",
+        1
+      ]
+    ]
+  },
+  "зловещий": {
+    "normal_form": "зловещий",
+    "part_of_speech": "A=твор",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "зловещими",
+        1
+      ]
+    ]
+  },
+  "предприятие": {
+    "normal_form": "предприятие",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "предприятиями",
+        1
+      ]
+    ]
+  },
+  "манера": {
+    "normal_form": "манера",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "манера",
+        1
+      ]
+    ]
+  },
+  "свойственный": {
+    "normal_form": "свойственный",
+    "part_of_speech": "A=ед",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "свойственна",
+        1
+      ]
+    ]
+  },
+  "речь": {
+    "normal_form": "речь",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "речь",
+        1
+      ]
+    ]
+  },
+  "касаться": {
+    "normal_form": "касаться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "касавшихся",
+        1
+      ]
+    ]
+  },
+  "непосредственно": {
+    "normal_form": "непосредственно",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "непосредственно",
+        1
+      ]
+    ]
+  },
+  "только": {
+    "normal_form": "только",
+    "part_of_speech": "PART=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Только",
+        1
+      ]
+    ]
+  },
+  "армия": {
+    "normal_form": "армия",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "армии",
+        1
+      ]
+    ]
+  },
+  "семь": {
+    "normal_form": "семь",
+    "part_of_speech": "NUM=(вин|им)",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "семь",
+        1
+      ]
+    ]
+  },
+  "месяц": {
+    "normal_form": "месяц",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "месяцев",
+        1
+      ]
+    ]
+  },
+  "оставаться": {
+    "normal_form": "оставаться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "осталось",
+        1
+      ]
+    ]
+  },
+  "рядовой": {
+    "normal_form": "рядовой",
+    "part_of_speech": "A=(дат",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "рядовым",
+        1
+      ]
+    ]
+  },
+  "первый": {
+    "normal_form": "первый",
+    "part_of_speech": "ANUM=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "первого",
+        1
+      ]
+    ]
+  },
+  "класс": {
+    "normal_form": "класс",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "класса",
+        1
+      ]
+    ]
+  },
+  "артиллерия": {
+    "normal_form": "артиллерия",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "артиллерии",
+        1
+      ]
+    ]
+  },
+  "форма": {
+    "normal_form": "форма",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Форма",
+        1
+      ]
+    ]
+  },
+  "помять": {
+    "normal_form": "помять",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "помята",
+        1
+      ]
+    ]
+  },
+  "ботинок": {
+    "normal_form": "ботинок",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Ботинки",
+        1
+      ]
+    ]
+  },
+  "пыль": {
+    "normal_form": "пыль",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "пыли",
+        1
+      ]
+    ]
+  },
+  "брить": {
+    "normal_form": "брить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "брит",
+        1
+      ]
+    ]
+  },
+  "протягивать": {
+    "normal_form": "протягивать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "протянул",
+        1
+      ]
+    ]
+  },
+  "книжка": {
+    "normal_form": "книжка",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "книжку",
+        1
+      ]
+    ]
+  },
+  "разрумяниваться": {
+    "normal_form": "разрумяниваться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "разрумянишься",
+        1
+      ]
+    ]
+  },
+  "перевертывать": {
+    "normal_form": "перевертывать",
+    "part_of_speech": "V=прош",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "перевернул",
+        1
+      ]
+    ]
+  },
+  "страница": {
+    "normal_form": "страница",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "страницы",
+        1
+      ]
+    ]
+  },
+  "показывать": {
+    "normal_form": "показывать",
+    "part_of_speech": "V=непрош",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "показывая",
+        1
+      ]
+    ]
+  },
+  "зарумяниваться": {
+    "normal_form": "зарумяниваться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "зарумянилась",
+        1
+      ]
+    ]
+  },
+  "мой": {
+    "normal_form": "мой",
+    "part_of_speech": "APRO=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "мой",
+        1
+      ]
+    ]
+  },
+  "подарок": {
+    "normal_form": "подарок",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "подарок",
+        1
+      ]
+    ]
+  },
+  "взять": {
+    "normal_form": "взять",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Взяв",
+        1
+      ]
+    ]
+  },
+  "прогулка": {
+    "normal_form": "прогулка",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "прогулку",
+        1
+      ]
+    ]
+  },
+  "вернуть": {
+    "normal_form": "вернуть",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "верну",
+        1
+      ]
+    ]
+  },
+  "писать": {
+    "normal_form": "писать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "писала",
+        1
+      ]
+    ]
+  },
+  "питтсбург": {
+    "normal_form": "питтсбург",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Питтсбурга",
+        1
+      ]
+    ]
+  },
+  "наверно": {
+    "normal_form": "наверно",
+    "part_of_speech": "ADV",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Наверно",
+        1
+      ]
+    ]
+  },
+  "сомневаться": {
+    "normal_form": "сомневаться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Сомневаюсь",
+        1
+      ]
+    ]
+  },
+  "короткий": {
+    "normal_form": "короткий",
+    "part_of_speech": "A=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "короткий",
+        1
+      ]
+    ]
+  },
+  "изучать": {
+    "normal_form": "изучать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "изучал",
+        1
+      ]
+    ]
+  },
+  "реклама": {
+    "normal_form": "реклама",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "рекламу",
+        1
+      ]
+    ]
+  },
+  "серебряный": {
+    "normal_form": "серебряный",
+    "part_of_speech": "A=(пр",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "серебряных",
+        1
+      ]
+    ]
+  },
+  "разворот": {
+    "normal_form": "разворот",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "развороте",
+        1
+      ]
+    ]
+  },
+  "называться": {
+    "normal_form": "называться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "называется",
+        1
+      ]
+    ]
+  },
+  "точно": {
+    "normal_form": "точно",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Точно",
+        1
+      ]
+    ]
+  },
+  "находить": {
+    "normal_form": "находить",
+    "part_of_speech": "V=инф",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "найти",
+        1
+      ]
+    ]
+  },
+  "название": {
+    "normal_form": "название",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "названия",
+        1
+      ]
+    ]
+  },
+  "альбемарль": {
+    "normal_form": "альбемарль",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Альбемарль",
+        1
+      ]
+    ]
+  },
+  "вереск": {
+    "normal_form": "вереск",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Вереск",
+        1
+      ]
+    ]
+  },
+  "легенда": {
+    "normal_form": "легенда",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Легенда",
+        1
+      ]
+    ]
+  },
+  "роза": {
+    "normal_form": "роза",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Роза",
+        1
+      ]
+    ]
+  },
+  "подарить": {
+    "normal_form": "подарить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "подарить",
+        1
+      ]
+    ]
+  },
+  "ложка": {
+    "normal_form": "ложка",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "ложку",
+        1
+      ]
+    ]
+  },
+  "серьезно": {
+    "normal_form": "серьезно",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "серьезно",
+        1
+      ]
+    ]
+  },
+  "прогуливаться": {
+    "normal_form": "прогуливаться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "прогуляться",
+        1
+      ]
+    ]
+  },
+  "сжинать": {
+    "normal_form": "сжинать",
+    "part_of_speech": "V=прош",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "сжала",
+        1
+      ]
+    ]
+  },
+  "переживать": {
+    "normal_form": "переживать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "переживая",
+        1
+      ]
+    ]
+  },
+  "ой": {
+    "normal_form": "ой",
+    "part_of_speech": "INTJ=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Ой",
+        1
+      ]
+    ]
+  },
+  "пошутить": {
+    "normal_form": "пошутить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "пошутил",
+        1
+      ]
+    ]
+  },
+  "насчет": {
+    "normal_form": "насчет",
+    "part_of_speech": "PR=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "насчет",
+        1
+      ]
+    ]
+  },
+  "тихонько": {
+    "normal_form": "тихонько",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "тихонько",
+        1
+      ]
+    ]
+  },
+  "изображать": {
+    "normal_form": "изображать",
+    "part_of_speech": "V=прош",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "изобразил",
+        1
+      ]
+    ]
+  },
+  "полицейский": {
+    "normal_form": "полицейский",
+    "part_of_speech": "A=вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "полицейскую",
+        1
+      ]
+    ]
+  },
+  "сирена": {
+    "normal_form": "сирена",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "сирену",
+        1
+      ]
+    ]
+  },
+  "бровь": {
+    "normal_form": "бровь",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "брови",
+        1
+      ]
+    ]
+  },
+  "сбегать": {
+    "normal_form": "сбегать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "сбежал",
+        1
+      ]
+    ]
+  },
+  "форт": {
+    "normal_form": "форт",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Форт",
+        1
+      ]
+    ]
+  },
+  "брег": {
+    "normal_form": "брег",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Брег",
+        1
+      ]
+    ]
+  },
+  "северный": {
+    "normal_form": "северный",
+    "part_of_speech": "A=им",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Северная",
+        1
+      ]
+    ]
+  },
+  "ага": {
+    "normal_form": "ага",
+    "part_of_speech": "PART=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Ага",
+        1
+      ]
+    ]
+  },
+  "недалеко": {
+    "normal_form": "недалеко",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Недалеко",
+        1
+      ]
+    ]
+  },
+  "фаетвилля": {
+    "normal_form": "фаетвилля",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Фаетвилля",
+        1
+      ]
+    ]
+  },
+  "где": {
+    "normal_form": "где",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "где",
+        1
+      ]
+    ]
+  },
+  "скарлет": {
+    "normal_form": "скарлет",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Скарлет",
+        1
+      ]
+    ]
+  },
+  "хара": {
+    "normal_form": "хара",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Хара",
+        1
+      ]
+    ]
+  },
+  "ходить": {
+    "normal_form": "ходить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "ходила",
+        1
+      ]
+    ]
+  },
+  "добираться": {
+    "normal_form": "добираться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "добрался",
+        1
+      ]
+    ]
+  },
+  "сюда": {
+    "normal_form": "сюда",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "сюда",
+        1
+      ]
+    ]
+  },
+  "палец": {
+    "normal_form": "палец",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "палец",
+        1
+      ]
+    ]
+  },
+  "покачать": {
+    "normal_form": "покачать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "покачал",
+        1
+      ]
+    ]
+  },
+  "голосовать": {
+    "normal_form": "голосовать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "голосуя",
+        1
+      ]
+    ]
+  },
+  "два": {
+    "normal_form": "два",
+    "part_of_speech": "NUM=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Два",
+        1
+      ]
+    ]
+  },
+  "мама": {
+    "normal_form": "мама",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "мама",
+        1
+      ]
+    ]
+  },
+  "кто": {
+    "normal_form": "кто",
+    "part_of_speech": "SPRO",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "кому",
+        1
+      ]
+    ]
+  },
+  "почему": {
+    "normal_form": "почему",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Почему",
+        1
+      ]
+    ]
+  },
+  "ко": {
+    "normal_form": "ко",
+    "part_of_speech": "PR=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "ко",
+        1
+      ]
+    ]
+  },
+  "коричневый": {
+    "normal_form": "коричневый",
+    "part_of_speech": "A=(дат",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "коричневым",
+        1
+      ]
+    ]
+  },
+  "сердитый": {
+    "normal_form": "сердитый",
+    "part_of_speech": "A=(пр",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "сердитой",
+        1
+      ]
+    ]
+  },
+  "раздраженный": {
+    "normal_form": "раздраженный",
+    "part_of_speech": "A=(пр",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "раздраженной",
+        1
+      ]
+    ]
+  },
+  "плакать": {
+    "normal_form": "плакать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "плакала",
+        1
+      ]
+    ]
+  },
+  "именно": {
+    "normal_form": "именно",
+    "part_of_speech": "PART=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "именно",
+        1
+      ]
+    ]
+  },
+  "глупо": {
+    "normal_form": "глупо",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Глупо",
+        1
+      ]
+    ]
+  },
+  "вообще": {
+    "normal_form": "вообще",
+    "part_of_speech": "ADV",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Вообще",
+        1
+      ]
+    ]
+  },
+  "уводить": {
+    "normal_form": "уводить",
+    "part_of_speech": "V=инф",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "увести",
+        1
+      ]
+    ]
+  },
+  "кто-нибудь": {
+    "normal_form": "кто-нибудь",
+    "part_of_speech": "SPRO",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "кто-нибудь",
+        1
+      ]
+    ]
+  },
+  "услышать": {
+    "normal_form": "услышать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "услышал",
+        1
+      ]
+    ]
+  },
+  "со": {
+    "normal_form": "со",
+    "part_of_speech": "PR=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "со",
+        1
+      ]
+    ]
+  },
+  "помешаться": {
+    "normal_form": "помешаться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "помешался",
+        1
+      ]
+    ]
+  },
+  "отчего": {
+    "normal_form": "отчего",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Отчего",
+        1
+      ]
+    ]
+  },
+  "вздыхать": {
+    "normal_form": "вздыхать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "вздохнула",
+        1
+      ]
+    ]
+  },
+  "глупость": {
+    "normal_form": "глупость",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "глупостью",
+        1
+      ]
+    ]
+  },
+  "отступать": {
+    "normal_form": "отступать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "отступила",
+        1
+      ]
+    ]
+  },
+  "закрываться": {
+    "normal_form": "закрываться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "закрылась",
+        1
+      ]
+    ]
+  },
+  "вид": {
+    "normal_form": "вид",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "виду",
+        1
+      ]
+    ]
+  },
+  "неожиданный": {
+    "normal_form": "неожиданный",
+    "part_of_speech": "A=ед",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "неожиданно",
+        1
+      ]
+    ]
+  },
+  "ожидать": {
+    "normal_form": "ожидать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "ожидать",
+        1
+      ]
+    ]
+  },
+  "ничто": {
+    "normal_form": "ничто",
+    "part_of_speech": "SPRO",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "ничего",
+        1
+      ]
+    ]
+  },
+  "бросаться": {
+    "normal_form": "бросаться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "брошусь",
+        1
+      ]
+    ]
+  },
+  "объятие": {
+    "normal_form": "объятие",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "объятия",
+        1
+      ]
+    ]
+  },
+  "ни": {
+    "normal_form": "ни",
+    "part_of_speech": "PART=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Ни",
+        1
+      ]
+    ]
+  },
+  "рассчитывать": {
+    "normal_form": "рассчитывать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "рассчитывал",
+        1
+      ]
+    ]
+  },
+  "опять": {
+    "normal_form": "опять",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "опять",
+        1
+      ]
+    ]
+  },
+  "сильно": {
+    "normal_form": "сильно",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "сильно",
+        1
+      ]
+    ]
+  },
+  "желать": {
+    "normal_form": "желать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "желая",
+        1
+      ]
+    ]
+  },
+  "расплакаться": {
+    "normal_form": "расплакаться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "расплакалась",
+        1
+      ]
+    ]
+  },
+  "спина": {
+    "normal_form": "спина",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "спиной",
+        1
+      ]
+    ]
+  },
+  "бесконечный": {
+    "normal_form": "бесконечный",
+    "part_of_speech": "A=вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "бесконечную",
+        1
+      ]
+    ]
+  },
+  "колоннада": {
+    "normal_form": "колоннада",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "колоннаду",
+        1
+      ]
+    ]
+  },
+  "злость": {
+    "normal_form": "злость",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Злость",
+        1
+      ]
+    ]
+  },
+  "право": {
+    "normal_form": "право",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "права",
+        1
+      ]
+    ]
+  },
+  "красный": {
+    "normal_form": "красный",
+    "part_of_speech": "A=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "красное",
+        1
+      ]
+    ]
+  },
+  "достаточно": {
+    "normal_form": "достаточно",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "достаточно",
+        1
+      ]
+    ]
+  },
+  "умный": {
+    "normal_form": "умный",
+    "part_of_speech": "A=мн",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "умны",
+        1
+      ]
+    ]
+  },
+  "взглядывать": {
+    "normal_form": "взглядывать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "взглянул",
+        1
+      ]
+    ]
+  },
+  "ужас": {
+    "normal_form": "ужас",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "ужасу",
+        1
+      ]
+    ]
+  },
+  "правда": {
+    "normal_form": "правда",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "правдой",
+        1
+      ]
+    ]
+  },
+  "спрятать": {
+    "normal_form": "спрятать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "спрятать",
+        1
+      ]
+    ]
+  },
+  "видеть": {
+    "normal_form": "видеть",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "видел",
+        1
+      ]
+    ]
+  },
+  "невозможно": {
+    "normal_form": "невозможно",
+    "part_of_speech": "ADV",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "невозможно",
+        1
+      ]
+    ]
+  },
+  "отпускать": {
+    "normal_form": "отпускать",
+    "part_of_speech": "V=прош",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "отпустил",
+        1
+      ]
+    ]
+  },
+  "разве": {
+    "normal_form": "разве",
+    "part_of_speech": "PART=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Разве",
+        1
+      ]
+    ]
+  },
+  "чего": {
+    "normal_form": "чего",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "чего",
+        1
+      ]
+    ]
+  },
+  "дикий": {
+    "normal_form": "дикий",
+    "part_of_speech": "A=вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Дикую",
+        1
+      ]
+    ]
+  },
+  "всепоглощающий": {
+    "normal_form": "всепоглощающий",
+    "part_of_speech": "A=вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "всепоглощающую",
+        1
+      ]
+    ]
+  },
+  "страсть": {
+    "normal_form": "страсть",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "страсть",
+        1
+      ]
+    ]
+  },
+  "нахмуриваться": {
+    "normal_form": "нахмуриваться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "нахмурился",
+        1
+      ]
+    ]
+  },
+  "жалеть": {
+    "normal_form": "жалеть",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "жалею",
+        1
+      ]
+    ]
+  },
+  "поцеловаться": {
+    "normal_form": "поцеловаться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "поцеловались",
+        1
+      ]
+    ]
+  },
+  "целоваться": {
+    "normal_form": "целоваться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "целоваться",
+        1
+      ]
+    ]
+  },
+  "близкий": {
+    "normal_form": "близкий",
+    "part_of_speech": "A=мн",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "близки",
+        1
+      ]
+    ]
+  },
+  "помнить": {
+    "normal_form": "помнить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "помнить",
+        1
+      ]
+    ]
+  },
+  "про": {
+    "normal_form": "про",
+    "part_of_speech": "PR=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "про",
+        1
+      ]
+    ]
+  },
+  "спасибо": {
+    "normal_form": "спасибо",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Спасибо",
+        1
+      ]
+    ]
+  },
+  "решетка": {
+    "normal_form": "решетка",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "решеткой",
+        1
+      ]
+    ]
+  },
+  "столько": {
+    "normal_form": "столько",
+    "part_of_speech": "NUM=(вин|им)",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Столько",
+        1
+      ]
+    ]
+  },
+  "стоить": {
+    "normal_form": "стоить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "стоить",
+        1
+      ]
+    ]
+  },
+  "один": {
+    "normal_form": "один",
+    "part_of_speech": "ANUM=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "один",
+        1
+      ]
+    ]
+  },
+  "поцелуй": {
+    "normal_form": "поцелуй",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "поцелуй",
+        1
+      ]
+    ]
+  },
+  "извинять": {
+    "normal_form": "извинять",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "извини",
+        1
+      ]
+    ]
+  },
+  "просить": {
+    "normal_form": "просить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "просила",
+        1
+      ]
+    ]
+  },
+  "заслуживать": {
+    "normal_form": "заслуживать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "заслуживаешь",
+        1
+      ]
+    ]
+  },
+  "геройский": {
+    "normal_form": "геройский",
+    "part_of_speech": "A=(пр",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "геройской",
+        1
+      ]
+    ]
+  },
+  "награда": {
+    "normal_form": "награда",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "награды",
+        1
+      ]
+    ]
+  },
+  "поступок": {
+    "normal_form": "поступок",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "поступок",
+        1
+      ]
+    ]
+  },
+  "должно": {
+    "normal_form": "должно",
+    "part_of_speech": "ADV",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Должно",
+        1
+      ]
+    ]
+  },
+  "представляться": {
+    "normal_form": "представляться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "представиться",
+        1
+      ]
+    ]
+  },
+  "случай": {
+    "normal_form": "случай",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "случай",
+        1
+      ]
+    ]
+  },
+  "беспокойство": {
+    "normal_form": "беспокойство",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "беспокойством",
+        1
+      ]
+    ]
+  },
+  "отмечать": {
+    "normal_form": "отмечать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "отметила",
+        1
+      ]
+    ]
+  },
+  "прощание": {
+    "normal_form": "прощание",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Прощание",
+        1
+      ]
+    ]
+  },
+  "позабывать": {
+    "normal_form": "позабывать",
+    "part_of_speech": "V=прош",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "позабыто",
+        1
+      ]
+    ]
+  },
+  "горячо": {
+    "normal_form": "горячо",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "горячо",
+        1
+      ]
+    ]
+  },
+  "немой": {
+    "normal_form": "немой",
+    "part_of_speech": "A=ед",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "нем",
+        1
+      ]
+    ]
+  },
+  "обижать": {
+    "normal_form": "обижать",
+    "part_of_speech": "V=непрош",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "обижаешь",
+        1
+      ]
+    ]
+  },
+  "плохой": {
+    "normal_form": "плохой",
+    "part_of_speech": "A=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "плохого",
+        1
+      ]
+    ]
+  },
+  "тоже": {
+    "normal_form": "тоже",
+    "part_of_speech": "PART=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "тоже",
+        1
+      ]
+    ]
+  },
+  "намерен": {
+    "normal_form": "намерен",
+    "part_of_speech": "A",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "намерена",
+        1
+      ]
+    ]
+  },
+  "обсуждать": {
+    "normal_form": "обсуждать",
+    "part_of_speech": "V=инф",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "обсуждать",
+        1
+      ]
+    ]
+  },
+  "его": {
+    "normal_form": "его",
+    "part_of_speech": "APRO=(пр",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "его",
+        1
+      ]
+    ]
+  },
+  "плюс": {
+    "normal_form": "плюс",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "плюсы",
+        1
+      ]
+    ]
+  },
+  "снова": {
+    "normal_form": "снова",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "снова",
+        1
+      ]
+    ]
+  },
+  "уходить": {
+    "normal_form": "уходить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "ушли",
+        1
+      ]
+    ]
+  },
+  "добавлять": {
+    "normal_form": "добавлять",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "добавить",
+        1
+      ]
+    ]
+  },
+  "ступень": {
+    "normal_form": "ступень",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "ступеням",
+        1
+      ]
+    ]
+  },
+  "звонить": {
+    "normal_form": "звонить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Звонили",
+        1
+      ]
+    ]
+  },
+  "голова": {
+    "normal_form": "голова",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "головой",
+        1
+      ]
+    ]
+  },
+  "пора": {
+    "normal_form": "пора",
+    "part_of_speech": "ADV",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Пора",
+        1
+      ]
+    ]
+  },
+  "возвращаться": {
+    "normal_form": "возвращаться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "возвращаться",
+        1
+      ]
+    ]
+  },
+  "похоже": {
+    "normal_form": "похоже",
+    "part_of_speech": "ADV",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Похоже",
+        1
+      ]
+    ]
+  },
+  "каждый": {
+    "normal_form": "каждый",
+    "part_of_speech": "APRO=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "каждый",
+        1
+      ]
+    ]
+  },
+  "короче": {
+    "normal_form": "короче",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "коротко",
+        1
+      ]
+    ]
+  },
+  "подстригать": {
+    "normal_form": "подстригать",
+    "part_of_speech": "V=прош",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "подстриженную",
+        1
+      ]
+    ]
+  },
+  "трава": {
+    "normal_form": "трава",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "траву",
+        1
+      ]
+    ]
+  },
+  "яблоня": {
+    "normal_form": "яблоня",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "яблоней",
+        1
+      ]
+    ]
+  },
+  "прикасаться": {
+    "normal_form": "прикасаться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "прикоснусь",
+        1
+      ]
+    ]
+  },
+  "верить": {
+    "normal_form": "верить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "верю",
+        1
+      ]
+    ]
+  },
+  "ярд": {
+    "normal_form": "ярд",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "ярдах",
+        1
+      ]
+    ]
+  },
+  "стюард": {
+    "normal_form": "стюард",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Стюард",
+        1
+      ]
+    ]
+  },
+  "чейзенс": {
+    "normal_form": "чейзенс",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Чейзенс",
+        1
+      ]
+    ]
+  },
+  "замечательный": {
+    "normal_form": "замечательный",
+    "part_of_speech": "A=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "замечательный",
+        1
+      ]
+    ]
+  },
+  "будущий": {
+    "normal_form": "будущий",
+    "part_of_speech": "A=(вин",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "будущий",
+        1
+      ]
+    ]
+  },
+  "плотно": {
+    "normal_form": "плотно",
+    "part_of_speech": "ADV=срав",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "плотнее",
+        1
+      ]
+    ]
+  },
+  "ловить": {
+    "normal_form": "ловить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "ловя",
+        1
+      ]
+    ]
+  },
+  "образ": {
+    "normal_form": "образ",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "образы",
+        1
+      ]
+    ]
+  },
+  "будущее": {
+    "normal_form": "будущее",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "будущего",
+        1
+      ]
+    ]
+  },
+  "зевнуть": {
+    "normal_form": "зевнуть",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "зевнул",
+        1
+      ]
+    ]
+  },
+  "пчела": {
+    "normal_form": "пчела",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Пчелы",
+        1
+      ]
+    ]
+  },
+  "бормотать": {
+    "normal_form": "бормотать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "бормотали",
+        1
+      ]
+    ]
+  },
+  "крона": {
+    "normal_form": "крона",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "кронах",
+        1
+      ]
+    ]
+  },
+  "засопеть": {
+    "normal_form": "засопеть",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "засопел",
+        1
+      ]
+    ]
+  },
+  "негромко": {
+    "normal_form": "негромко",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "негромко",
+        1
+      ]
+    ]
+  },
+  "поспать": {
+    "normal_form": "поспать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "поспать",
+        1
+      ]
+    ]
+  },
+  "час": {
+    "normal_form": "час",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "час",
+        1
+      ]
+    ]
+  },
+  "пока": {
+    "normal_form": "пока",
+    "part_of_speech": "CONJ=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "пока",
+        1
+      ]
+    ]
+  },
+  "спать": {
+    "normal_form": "спать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "спал",
+        1
+      ]
+    ]
+  },
+  "сердце": {
+    "normal_form": "сердце",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "сердцем",
+        1
+      ]
+    ]
+  },
+  "яблочный": {
+    "normal_form": "яблочный",
+    "part_of_speech": "A=(пр",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "яблочных",
+        1
+      ]
+    ]
+  },
+  "вытягиваться": {
+    "normal_form": "вытягиваться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "вытянулись",
+        1
+      ]
+    ]
+  },
+  "восток": {
+    "normal_form": "восток",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "востоку",
+        1
+      ]
+    ]
+  },
+  "зазвенеть": {
+    "normal_form": "зазвенеть",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "зазвенели",
+        1
+      ]
+    ]
+  },
+  "чий": {
+    "normal_form": "чий",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Чии",
+        1
+      ]
+    ]
+  },
+  "запевать": {
+    "normal_form": "запевать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "запел",
+        1
+      ]
+    ]
+  },
+  "хохотун": {
+    "normal_form": "хохотун",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "хохотун",
+        1
+      ]
+    ]
+  },
+  "где-то": {
+    "normal_form": "где-то",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Где-то",
+        1
+      ]
+    ]
+  },
+  "стартер": {
+    "normal_form": "стартер",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "стартер",
+        1
+      ]
+    ]
+  },
+  "автомобиль": {
+    "normal_form": "автомобиль",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "автомобиля",
+        1
+      ]
+    ]
+  },
+  "заглохнуть": {
+    "normal_form": "заглохнуть",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Заглох",
+        1
+      ]
+    ]
+  },
+  "колено": {
+    "normal_form": "колено",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "колени",
+        1
+      ]
+    ]
+  },
+  "перед": {
+    "normal_form": "перед",
+    "part_of_speech": "PR=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "перед",
+        1
+      ]
+    ]
+  },
+  "мм": {
+    "normal_form": "мм",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Мм",
+        1
+      ]
+    ]
+  },
+  "вставать": {
+    "normal_form": "вставать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "встал",
+        1
+      ]
+    ]
+  },
+  "потянуться": {
+    "normal_form": "потянуться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "потянулся",
+        1
+      ]
+    ]
+  },
+  "ворчать": {
+    "normal_form": "ворчать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "ворча",
+        1
+      ]
+    ]
+  },
+  "отлично": {
+    "normal_form": "отлично",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Отлично",
+        1
+      ]
+    ]
+  },
+  "здесь": {
+    "normal_form": "здесь",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "здесь",
+        1
+      ]
+    ]
+  },
+  "куда": {
+    "normal_form": "куда",
+    "part_of_speech": "ADVPRO=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Куда",
+        1
+      ]
+    ]
+  },
+  "автостопом": {
+    "normal_form": "автостопом",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "Автостопом",
+        1
+      ]
+    ]
+  },
+  "сдаваться": {
+    "normal_form": "сдаваться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "сдаваться",
+        1
+      ]
+    ]
+  },
+  "секунда": {
+    "normal_form": "секунда",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "секунду",
+        1
+      ]
+    ]
+  },
+  "быстро": {
+    "normal_form": "быстро",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "быстро",
+        1
+      ]
+    ]
+  },
+  "прочь": {
+    "normal_form": "прочь",
+    "part_of_speech": "ADV=",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "прочь",
+        1
+      ]
+    ]
+  },
+  "смотреть": {
+    "normal_form": "смотреть",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "смотрела",
+        1
+      ]
+    ]
+  },
+  "удаляться": {
+    "normal_form": "удаляться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "удаляется",
+        1
+      ]
+    ]
+  },
+  "мешанина": {
+    "normal_form": "мешанина",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "мешанине",
+        1
+      ]
+    ]
+  },
+  "обертываться": {
+    "normal_form": "обертываться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "обернется",
+        1
+      ]
+    ]
+  },
+  "побежать": {
+    "normal_form": "побежать",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "побежит",
+        1
+      ]
+    ]
+  },
+  "выбор": {
+    "normal_form": "выбор",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "выбора",
+        1
+      ]
+    ]
+  },
+  "крикнуть": {
+    "normal_form": "крикнуть",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "крикнул",
+        1
+      ]
+    ]
+  },
+  "рвануться": {
+    "normal_form": "рвануться",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "рванулась",
+        1
+      ]
+    ]
+  },
+  "обхватить": {
+    "normal_form": "обхватить",
+    "part_of_speech": "V",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "обхватила",
+        1
+      ]
+    ]
+  },
+  "сила": {
+    "normal_form": "сила",
+    "part_of_speech": "S",
+    "frequency": 1,
+    "wordforms": [
+      [
+        "силах",
+        1
+      ]
+    ]
+  }
+}
