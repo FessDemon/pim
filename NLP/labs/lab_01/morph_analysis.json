@@ -1,0 +1,30 @@
+[
+    {
+        "wordform": "Мама",
+        "lemma": "мама",
+        "pos": "S",
+        "gramm_info": "S,жен,од=им,ед",
+        "in_dictionary": true
+    },
+    {
+        "wordform": "мыла",
+        "lemma": "мыть",
+        "pos": "V",
+        "gramm_info": "V,несов,пе=прош,ед,изъяв,жен",
+        "in_dictionary": true
+    },
+    {
+        "wordform": "раму",
+        "lemma": "рама",
+        "pos": "S",
+        "gramm_info": "S,жен,неод=вин,ед",
+        "in_dictionary": true
+    },
+    {
+        "wordform": ".",
+        "lemma": ".",
+        "pos": "UNKNOWN",
+        "gramm_info": "WORD_NOT_IN_DICTIONARY",
+        "in_dictionary": false
+    }
+]
