@@ -39,3 +39,6 @@ machine_learning/labs/lab_02/.ipynb_checkpoints/
 machine_learning/labs/lab_03/.ipynb_checkpoints/
 machine_learning/labs/lab_04/.ipynb_checkpoints/
 po_ni/Лабораторная работа 4/data/.~lock.BUL_MO_2023.xlsx#
+CV/labs/lab_05/seg_pred
+CV/labs/lab_05/seg_test
+CV/labs/lab_05/seg_train
